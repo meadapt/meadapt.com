@@ -84,6 +84,10 @@ extra: # Footer
     - icon: simple/github
       name: My GitHub Account.
       link: http://github.com/gabrielbdornas
+  analytics:
+    provider: google
+    property: G-0QEE78N4QK
+
 
 plugins:
   - git-revision-date-localized:
