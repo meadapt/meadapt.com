@@ -87,6 +87,21 @@ extra: # Footer
   analytics:
     provider: google
     property: G-0QEE78N4QK
+    feedback:
+      title: Gostou desta página?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: Gostei
+          data: 1
+          note: >-
+            Obrigado por compartilhar!
+        - icon: material/thumb-down-outline
+          name: Não gostei
+          data: 0
+          note: >-
+            Obrigado por compartilhar!
+            Adoraria escutar um pouquinho mais sua opinião.
+            Se estiver a vontade quanto a isso peço que nos envio no email suporte@meadapt.com!
 
 
 plugins:
