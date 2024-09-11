@@ -1,0 +1,2 @@
+[tool.taskipy.tasks]
+devserver = { cmd = "mkdocs serve", help = "Starts development server." }
