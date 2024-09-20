@@ -1,8 +1,8 @@
 site_name: meadapt.com
 
 # Repository
-repo_name: meadapt.com/meadapt.com
-repo_url: https://github.com/meadapt.com/meadapt.com
+repo_name: meadapt/meadapt.com
+repo_url: https://github.com/meadapt/meadapt.com
 edit_uri: edit/main/docs/
 
 nav:
