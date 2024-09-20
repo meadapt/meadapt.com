@@ -1,5 +1,5 @@
 ---
-date: 2023-11-22
+date: 2024-09-20
 draft: true
 authors: [gabrielbdornas]
 comments: true
@@ -7,52 +7,57 @@ categories:
   - Power Automate
 ---
 
-# Introdução Power Automate
+# Construa seu primeiro fluxo Power Automate do zero
 
-No post [5 motivos para aprender ferramentas de automação (RPA) URGENTE](./20240914_5_motivos_para_aprender_automacao.md) te convencemos a importância de aprender e utilizar ferramentas de automação.
-Em resumo, ganhamos tempo, nosso recurso mais preciosos, melhoramos a eficiência operacional e, em última análise, oferecemos serviços com maior qualidade.
-Agora é o momento de você juntar-se a nós em uma verdadeira imersão para descobrir como o **Power Automate**[^1] pode desempenhar um papel crucial na modernização e aprimoramento de operações repetitivas.
+No post [5 motivos para aprender ferramentas de automação (RPA) URGENTE](./20240914_5_motivos_para_aprender_automacao.md){ target='_blank' } te mostrei a importância de aprender e utilizar ferramentas de automação.
+Em resumo, ganhamos tempo (nosso recurso mais preciosos), melhoramos a eficiência operacional e, em última análise, oferecemos serviços com maior qualidade.
+Agora é o momento de te mostrar, na prática, como o **Power Automate**[^1] pode acabar com suas operações repetitivas.
 
 <!-- more -->
 
-Desenvolvido pela Microsoft, o Automate emerge como ferramenta essencial na criação automatizações.
-Neste post tentamos ser o mais prático possível, e a deste quite de sobrevivência será feito via introdução de conceitos em conjunto com a criação de um fluxo real.
+Te darei neste post meu quite de sobrevivência para iniciantes.
+Você sairá daqui com um fluxo da vida real, pronto para uso.
+Mas tudo, claro, com explicação completa dos conceitos necessários.
 
 ## Intrudução ao fluxo
 
-Consultaremos CEPs registrados em uma planilha do Excel para complementar informações de logradouro, bairro, localidade e UF neste mesmo arquivo.
-Esta tarefa, apesar de aparentemente simples, ilustra a potência e a utilidade do Automate no contexto de eliminação de trabalho manual repetitivo.
+Mas afinal, que fluxo será esse, você deve estar se perguntando.
+Bom, consultaremos CEPs registrados em uma planilha do Excel para complementar, neste mesmo arquivo, as informações de logradouro, bairro, localidade e UF.
+
+Você, com certeza, já se deparou com a necessidade de buscar informações de CEPs manualmente.
+Talvez apenas de um, caso se tratasse de alguma situação pessoal.
+Mas já imaginou esta demanda em um ambiente corporativo onde a pesquisa seria necessária para levantar localidades para algum tipo de campanha publicitária.
+
+Esta tarefa aparentemente simples, pode ser um bom exemplo de processo repetitivo e demorado.
+Pense em uma lista enorme de CEPs para pesquisar.
+
 Uma planilha Excel, composta por CEPs na coluna A, será a base de todo nosso trabalho.
-As coluna B, C, E, F abrigarão os resultados consultados respectivamente.
-A coluna G será responsável por armazenar o status geral de cada consulta.
-
-??? note "**Clique e entenda o fluxo final que será desempenhado por nosso robô**"
-
-    ```mermaid
-            --8<-- "docs/blog/posts/20231122_power_automate_ciclo_basico/assets/fluxo_final.md"
-    ```
+As coluna `B`, `C`, `D` e `E` abrigarão os resultados consultados de logradouro, bairro, localidade e UF, respectivamente.
+A coluna `F` será responsável por armazenar o status geral de cada consulta.
 
 Daremos ênfase à:
 
 - Utilização de ações na construção de fluxos.
 - Criação e utilização de variáveis para armazenar dados essenciais ao longo da execução do fluxo.
 - Exploração de estruturas condicionais (If/Else) para lidar com diferentes resultados de consulta.
-- Criação de estruturas de repetição (Loop) para que a busca aconteça em todos os CNPJs listados na planilha.
+- Criação de estruturas de repetição (Loop) para que a busca aconteça em todos os CEPs listados na planilha.
 
-Ao compreendermos esses elementos, estaremos preparados para construir qualquer fluxo.
+Ao compreendermos esses elementos, estaremos preparados para construir, praticamente, qualquer fluxo.
 
 ## Ações
 
 São os blocos fundamentais que compõem a estrutura de um fluxo.
 Elas representam passos individuais para realização de tarefas específicas e se combinam para formar um processo coeso.
-Podem ser encontradas com auxílio da barra de pesquisa localizada no canto superior esquerdo do fluxo em construção e, em geral, possuem denominação similar às ações realizadas por nós, humanos.
-Podem ser selecionadas com um clique duplo ou simplesmente sendo arrastadas para o fluxo em construção.
+Possuem, em geral, denominação similar às ações realizadas por nós, humanos.
 
-Em outras palavras, são como instruções que dizem ao sistema o que fazer em um determinado momento do fluxo.
+São encontradas com auxílio da barra de pesquisa localizada no canto superior esquerdo do fluxo em construção.
+Podem ser selecionadas com um clique duplo ou simplesmente sendo arrastadas.
+
+Em outras palavras, são como instruções que dizem ao sistema o que deve ser feito.
 Ao escolher qual ação queremos, quebramos nosso trabalho (o fluxo completo) em diversas tarefas menores, mais simples e fáceis de serem realizadas.
 
 O Automate oferece uma ampla variedade de ações específicas para diferentes necessidades.
-Por exemplo, a ação "Enviar E-mail" possibilita a automação de comunicações, enquanto a ação "Aguardar página da Web" garante que a página da web esteja realmente carregada antes de sua manipulação, caso contrário nosso fluxo não executaria com sucesso.
+Por exemplo, `Enviar E-mail` possibilita a automação de comunicações, enquanto a ação `Aguardar página da Web` garante que a página da web esteja realmente carregada antes de sua manipulação, caso contrário nosso fluxo não executaria com sucesso.
 
 ### Exemplos Práticos de Ações[^2]
 
@@ -64,7 +69,7 @@ Ela cria uma instância do navegador Chrome, permitindo que o fluxo interaja com
 **Ler da Planilha Excel**: Com ela podemos extrair dados específicos de uma planilha, como os CEPs que serão consultados no nosso exemplo.
 Essa ação possibilita a interação com os dados existentes na instância Microsoft Excel desejada.
 
-## Criação e utilização de variáveis[^3]
+## Criação e utilização de variáveis
 
 A utilização de variáveis desempenha um papel importante na eficiência, adaptabilidade e segurança de nossos fluxos.
 Podem ser localizadas na lateral superior direita do fluxo em construção.
@@ -91,99 +96,119 @@ Também podem ser criadas para resultados de ações diversas, como a extração
 
 Podemos listar uma infinidade de exemplos, mas o importante será entender
 como essas variáveis são geradas e utilizadas.
-Como boa prática, sugerimos sempre renomear[^4] as variáveis criadas pelo próprio Automate, dando a elas nomes que contenham um significado claro em relação à informação armazenada.
+Como boa prática, sugerimos sempre renomear[^3] as variáveis criadas pelo próprio Automate, dando a elas nomes que contenham um significado claro em relação à informação armazenada.
 Isso facilitará a construção do fluxo, bem como sua manutenção.
 
 ## Estruturas condicionais
 
 As estruturas condicionais do Automate são criadas utilizando-se as ações If e Else.
 Elas são semelhantes a divisões de um caminho, permitindo que o fluxo de automação tome decisões com base em condições específicas.
+
 Estas condições direcionam o fluxo do processo de acordo com critérios predefinidos.
 Podemos usar o simples ato de atravessar a rua como exemplo.
-Antes de atravessar uma rua olhamos para os dois lados. Se (If) vejo algum carro vindo em algum dos lados aguardo e não atravesso. Caso contrário (Else), não havendo nenhum carro avistado, posso atravessar tranquilamente.
-Para ilustrar e ou facilitar o entendimento, a estrutura condicional foi destacada de laranja no fluxograma abaixo:
 
-```mermaid
-flowchart LR
-    1((Início)) --> 2
-    2[Chego para atravessar a rua] --> 3
-    3[Olho para os dois lados]  --> 4
-    4:::conditions
-    4{Vejo algum carro?}
-    4-->|Sim|5
-    4-->|Não|6
-    5[Aguardo]
-    5:::conditions-->7
-    6[Atravesso]
-    6:::conditions-->7
-    7((Fim))
-    classDef conditions fill:#f96
-```
+Antes de atravessar uma rua olhamos para os dois lados.
+Se (If) vejo algum carro vindo em algum dos lados aguardo e não atravesso.
+Caso contrário (Else), não havendo nenhum carro avistado, posso atravessar tranquilamente.
 
-Em nosso caso iremos configurar uma estrutura condicional para verificar se CNPJ consultado está inscrito ou não no CAGEF.
-Se (If) sim, registro da informação "Inscrito" em nossa planilha, caso contrário (Else), a informação registrada será "NÃO Inscrito".
-Para ilustrar e ou facilitar o entendimento, a estrutura condicional foi destacada de laranja no fluxograma abaixo:
+??? note "**Clique e veja a estrutura condicional do fluxo de atravessar a rua.**"
 
-```mermaid
-flowchart TD
-    1((Início)) --> 2
-    2[Consultar CNPJ CAGEF] --> 3
-    3:::conditions
-    3{CNPJ Inscrito}
-    3-->|Não|4
-    3-->|Sim|5
-    4:::conditions
-    4[Escrever NÃO Inscrito no Excel] --> 6
-    5:::conditions
-    5[Escrever Inscrito no Excel] --> 6
-    6((Fim))
-    classDef conditions fill:#f96
-```
+    **Para facilitar o entendimento, a estrutura condicional foi destacada de laranja no fluxograma abaixo:**
+
+    ```mermaid
+      flowchart LR
+          1((Início)) --> 2
+          2[Chego para atravessar a rua] --> 3
+          3[Olho para os dois lados]  --> 4
+          4:::conditions
+          4{Vejo algum carro?}
+          4-->|Sim|5
+          4-->|Não|6
+          5[Aguardo]
+          5:::conditions-->7
+          6[Atravesso]
+          6:::conditions-->7
+          7((Fim))
+          classDef conditions fill:#f96
+    ```
+
+Em nosso caso iremos configurar uma estrutura condicional para verificar se o CEP consultado existe.
+Se (If) sim, registro logradouro, bairro, localidade e UF em nossa planilha, caso contrário (Else), registro `CEP não localizado` na coluna `F` (responsável por receber o status geral da consulta).
 
 Essas estruturas proporcionam flexibilidade, pois possibilitam a execução de multiplas possibilidades, adaptando a automação conforme as regras do negócio.
+
+??? note "**Clique e veja a estrutura condicional do fluxo de consulta de CEPs.**"
+
+    **Para facilitar o entendimento, a estrutura condicional foi destacada de laranja no fluxograma abaixo:**
+
+    ```mermaid
+    flowchart TD
+        1((Início)) --> 2
+        2[Consultar CEPs] --> 3
+        3:::conditions
+        3{CEP existe}
+        3-->|Não|4
+        3-->|Sim|5
+        4:::conditions
+        4[Registra CEP não localizado] --> 6
+        5:::conditions
+        5[Registra informações] --> 6
+        6((Fim))
+        classDef conditions fill:#f96
+    ```
 
 ## Estruturas de repetição (Loop)
 
 Como o próprio nome indica, são ações criadas com objetivo de repetir determinado processo.
-Melhorando nosso exemplo de atravessar a rua, devemos incluir um loop após a etapa aguardar, caso contrário aguardaremos eternamente ou não sairemos do lugar. Após um tempo aguardando, volto a olhar para os dois lados e o processo se repete até o momento que não vejo nenhum carro e posso atravessar a rua com segurança, finalizando o fluxo.
+Melhorando nosso exemplo de atravessar a rua, devemos incluir um loop após a etapa aguardar, caso contrário aguardaremos eternamente ou não sairemos do lugar.
+Após um tempo aguardando, volto a olhar para os dois lados e o processo se repete até o momento que não vejo nenhum carro e posso atravessar a rua com segurança, finalizando o fluxo.
 
-```mermaid
-flowchart LR
-    1((Início)) --> 2
-    2[Chego para atravessar a rua] --> 3
-    3[Olho para os dois lados]  --> 4
-    4{Vejo algum carro?}
-    4-->|Sim|5
-    4-->|Não|6
-    5[Aguardo]-->3
-    6[Atravesso]-->7
-    7((Fim))
-```
+??? note "**Clique e veja a estrutura de repetição do fluxo de atravessar a rua.**"
+
+    **Para facilitar o entendimento, a estrutura condicional foi destacada de laranja no fluxograma abaixo:**
+
+    ```mermaid
+    flowchart LR
+        1((Início)) --> 2
+        2[Chego para atravessar a rua] --> 3
+        3[Olho para os dois lados]  --> 4
+        3:::conditions
+        4{Vejo algum carro?}
+        4:::conditions
+        4-->|Sim|5
+        4-->|Não|6
+        5[Aguardo]-->3
+        5:::conditions
+        6[Atravesso]-->7
+        7((Fim))
+        classDef conditions fill:#f96
+    ```
 
 Para o Power Automate, **um loop permite que uma sequência de ações seja executada repetidamente** com base em condições específicas.
 É como uma máquina que faz a mesma tarefa várias vezes de forma automática, economizando tempo e esforço.
 
-Utilizaremos um loop em nossa lista de CNPJs afim de realizarmos todas as nossas consultas.
-Criaremos a lógica que permitirá ajustar, de maneira dinâmica, o número de repetições de acordo com o número de CNPJs existentes na lista.
+Utilizaremos um loop em nossa lista de CEPS afim de realizarmos todas as nossas consultas.
+Criaremos a lógica que permitirá ajustar, de maneira dinâmica, o número de repetições de acordo com o número de CEPSs existentes na lista.
 
-```mermaid
-flowchart TD
-    1((Início)) --> 2
-    2[Consultar CNPJ CAGEF] --> 3
-    3[Registrar resultado no Excel] --> 4
-    4{Todos CNPJs consultados?}
-    4-->|Sim|5
-    4-->|Não|2
-    5((Fim))
-```
+??? note "**Clique e veja a estrutura de repetição do fluxo de consulta de CEPs.**"
 
-??? note "**Crie seu primeiro loop no Automate**"
+    **Para facilitar o entendimento, a estrutura condicional foi destacada de laranja no fluxograma abaixo:**
 
     ```mermaid
-            --8<-- "docs/blog/posts/20231122_power_automate_ciclo_basico/assets/fluxo_final.md"
-
+    flowchart TD
+        1((Início)) --> 2
+        2[Consultar CEP] --> 3
+        2:::conditions
+        3[Registrar resultado no Excel] --> 4
+        3:::conditions
+        4{Todos CEPs consultados?}
+        4:::conditions
+        4-->|Sim|5
+        4-->|Não|2
+        5((Fim))
+        classDef conditions fill:#f96
+    ```
 
 [^1]: Carinhosamente chamado de Automate deste ponto em diante.
 [^2]: Não é nossa intenção aqui explicar todas as ações disponíveis, pois são muitas. Navegue nesta lista e tente, por conta própria, utilizar ações que te chamaram atenção, uma vez que suas configurações são, via de regra, bastante autoexplicativas.
-[^3]: Anteriormente abordado [neste post](../20231019_variaveis/index.md).
-[^4]: Não utilize espaços e ou caracteres especiais como acentos, cedilha e til, para renomear as variáveis de fluxo. Sugerimos a utilização de letras minúsculas, separadas por underscore (`_`) como em `resultado_pesquisa`.
+[^3]: Não utilize espaços e ou caracteres especiais como acentos, cedilha e til, para renomear as variáveis de fluxo. Sugerimos a utilização de letras minúsculas, separadas por underscore (`_`) como em `resultado_pesquisa`.
