@@ -18,7 +18,7 @@ theme:
     edit: material/pencil
     view: material/eye
   favicon: assets/favicon.svg
-  language: en
+  language: pt
   custom_dir: docs/overrides
   features:
     - content.code.annotate
@@ -111,7 +111,7 @@ plugins:
       enable_creation_date: true
   - search:
       lang:
-        - en
+        - pt
   - blog:
       post_url_format: "{slug}"
       archive: false
