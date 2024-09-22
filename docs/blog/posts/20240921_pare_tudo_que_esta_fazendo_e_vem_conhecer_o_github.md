@@ -159,6 +159,8 @@ Pesquise como incluir arquivos, como abrir Issues, como convidar colegas para pa
 
 Boa jornada!
 
+--8<-- "docs/overrides/partials/blog/encontrou_erro.md"
+
 [^1]: Breve resumo do artigo [Psychological safety and norm clarity in software engineering teams](https://dl.acm.org/doi/10.1145/3195836.3195847?utm_source=substack&utm_medium=email). Tanto o artigo quanto o resumo citados analisam eficiência em equipes de engenharia de software, mas acredito que eles podem ser utilizados para equipes de uma maneira em geral.
 
 [^2]: Um bom exemplo de utilização de [Issues](https://github.com/mschermann/data_viz_reader/issues) para gestão de tickets é o documento [A Reader on Data Visualization](https://mschermann.github.io/data_viz_reader/), que não é código.
