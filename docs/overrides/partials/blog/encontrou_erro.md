@@ -6,4 +6,4 @@
 
     Caso prefira, manda um e-mail para [faleconosco@meadapt.com](mailto:faleconosco@meadapt.com).
 
-    **Falar com você será um grande prazer para nós**.
+    **Falar com você será um grande prazer**.
