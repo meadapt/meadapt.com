@@ -1,6 +1,6 @@
 ---
 date: 2024-09-22
-draft: True
+draft: False
 authors: [gabrielbdornas]
 comments: true
 categories:
@@ -123,7 +123,7 @@ Alguns exemplo:
 ??? abstract "Tome nota"
 
     $$
-    Softaware = Código = Texto = Documento
+    Software = Código = Texto = Documento
     $$
 
 ## Mostre seu potencial para o mundo
