@@ -191,8 +191,226 @@ Por exemplo, a expressão `6 * 7` tem o valor `42`.
 
 ## Funções Aritméticas
 
-Além dos operadores aritméticos, o Python fornece algumas funções que trabalham com números. Por exemplo, a função round pega um número de ponto flutuante e o arredonda para o número inteiro mais próximo.
+Além dos operadores aritméticos, o Python fornece algumas funções que trabalham com números.
+Por exemplo, a função `round` pega um `float` e o arredonda para o número inteiro mais próximo:
 
-```python
-In [13]: round(42.4)
-In [14]: round(4
+=== "Código"
+
+    ```python
+    round(42.4) #(1)
+    ```
+
+    1. :woman_raising_hand_tone4: Experimente passar os valores `4.5` e `4.6` para a função `round()`. O resultado final era o esperado por você?
+
+=== "Resultado"
+
+    ```python
+    42
+    ```
+
+
+A função `abs` calcula o valor absoluto de um número.
+Para um número positivo, o valor absoluto é o próprio número.
+
+=== "Código"
+
+    ```python
+    abs(42)
+    ```
+=== "Resultado"
+
+    ```python
+    42
+    ```
+
+Para um número negativo, o valor absoluto é positivo.
+
+=== "Código"
+
+    ```python
+    abs(-42)
+    ```
+=== "Resultado"
+
+    ```python
+    42
+    ```
+
+Quando usamos funções como essas, dizemos que estamos "chamando" a função.
+Uma expressão que chama uma função é uma "chamada de função".
+
+Quando você chama uma função, os parênteses são obrigatórios.
+Se você os omitir, receberá uma mensagem de erro.
+
+=== "Código"
+
+    ```python
+    abs 42
+    ```
+=== "Resultado"
+
+    ```python
+    File "<stdin>", line 1
+        abs 42
+            ^^
+    SyntaxError: invalid syntax
+    ```
+
+Você pode ignorar a primeira linha dessa mensagem; ela não contém nenhuma informação que precisamos entender agora.
+A segunda linha é o código que contém o erro, com acentos circunflexos (`^^`) abaixo dela para indicar onde o erro foi descoberto.
+
+A última linha indica que este é um erro de sintaxe, o que significa que há algo errado com a estrutura da expressão.
+Neste exemplo, o problema é que uma chamada de função requer parênteses.
+
+Vamos ver o que acontece se você omitir os parênteses e o valor.
+
+=== "Código"
+
+    ```python
+    abs
+    ```
+=== "Resultado"
+
+    ```python
+    <built-in function abs>
+    ```
+
+Um nome de função sozinho é uma expressão legal que tem um valor.
+Quando é exibido, o valor indica que `abs` é uma função e inclui algumas informações adicionais que explicarei mais tarde.
+
+## Strings
+
+Além de números, o Python também pode representar sequências de letras, que são chamadas de strings (`str`), ou cadeias de caracteres porque as letras são enfileiradas como pedras em um colar.
+Para escrever uma string, podemos colocar uma sequência de letras dentro de aspas simples.
+
+=== "Código"
+
+    ```python
+    'Hello'
+    ```
+=== "Resultado"
+
+    ```python
+    Hello
+    ```
+
+Também é permitido usar aspas duplas.
+
+=== "Código"
+
+    ```python
+    "Hello"
+    ```
+=== "Resultado"
+
+    ```python
+    Hello
+    ```
+
+Aspas duplas facilitam a escrita de uma string que contém um apóstrofo, que é o mesmo símbolo que uma aspa simples.
+
+=== "Código"
+
+    ```python
+    "Copa d'água" # (1)
+    ```
+
+    1. :woman_raising_hand_tone4: Como você criaria uma `str` para um texto que contenha aspas duplas como em `Ele ironisou ao falar que está muito "preocupado" com a situação`?
+
+=== "Resultado"
+
+    ```
+    Copa d'água
+    ```
+
+Strings também podem conter espaços, pontuação e dígitos.
+
+=== "Código"
+
+    ```python
+    'Bem , . '
+    ```
+=== "Resultado"
+
+    ```
+    Bem , .
+    ```
+
+Quando você cria uma string, certifique-se de sempre usar aspas.
+O acento grave, também conhecido como backtick, causa um erro de sintaxe.
+
+=== "Código"
+
+    ```python
+    `Hello`
+    ```
+=== "Resultado"
+
+    ```
+    File "<stdin>", line 1
+        `Hello`
+        ^
+    SyntaxError: invalid syntax
+    ```
+
+As aspas inteligentes, também conhecidas como aspas curtas, também não são permitidas.
+
+=== "Código"
+
+    ```python
+    ‘Hello’
+    ```
+=== "Resultado"
+
+    ```
+    File "<stdin>", line 1
+        ‘Hello’
+        ^
+    SyntaxError: invalid character '‘' (U+2018)
+    ```
+
+O operador `+` também funciona com strings.
+Ele unifica duas ou mais strings em uma só, o que é chamado de concatenação.
+
+=== "Código"
+
+    ```python
+    'Bem, gostaria de um ' + "copo d'água " + 'gelada.'
+    ```
+=== "Resultado"
+
+    ```
+    Bem, gostaria de um copo d'água gelada.
+    ```
+
+Da mesma forma, o operador `*` também funciona com strings.
+Ele concatena várias cópias de uma mesma string.
+
+=== "Código"
+
+    ```python
+    'Spam, ' * 4
+    ```
+=== "Resultado"
+
+    ```
+    Spam, Spam, Spam, Spam,
+    ```
+
+Os outros operadores aritméticos não funcionam com strings.
+
+Por fim, também temos a função `len` que calcula o comprimento de uma string.
+
+=== "Código"
+
+    ```python
+    len('Spam') # (1)
+    ```
+
+    1. :person_raising_hand_tone2: Observe são contadas apenas as letras entre as aspas, mas não as aspas.
+
+=== "Resultado"
+
+    ```
+    4
+    ```
