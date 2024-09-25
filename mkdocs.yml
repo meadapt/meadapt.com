@@ -42,6 +42,7 @@ theme:
     code: Roboto Mono
 
 markdown_extensions:
+  - pymdownx.keys
   - admonition
   - pymdownx.details
   - abbr
