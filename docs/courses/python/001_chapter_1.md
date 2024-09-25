@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Capítulo 1: Pensando como um Cientista da Computação
 
 Este curso tem dois objetivos principais.
@@ -677,3 +681,4 @@ Todas as linguagens de programação são linguagens formais.
 - **Bug:** Um erro em um programa.
 
 - **Debugging:** O processo de encontrar e corrigir bugs.
+
