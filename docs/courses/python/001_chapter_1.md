@@ -592,3 +592,49 @@ Você pode usar `_` para tornar grandes números mais fáceis de ler.
     ```python
     1000000
     ```
+## Linguagens Formais e Naturais
+
+**Linguagens naturais**: São as línguas que as pessoas falam, como inglês, espanhol e francês.
+Elas não foram projetadas por pessoas.
+Elas evoluíram naturalmente.
+
+**Linguagens formais**: São linguagens que são projetadas por pessoas para aplicações específicas.
+Por exemplo, a notação que os matemáticos usam é uma linguagem formal que é particularmente boa em denotar relações entre números e símbolos.
+Da mesma forma, as linguagens de programação são linguagens formais que foram projetadas para expressar computações.
+
+Embora as linguagens formais e naturais tenham algumas características em comum, existem diferenças importantes:
+
+  - **Ambiguidade:**: As linguagens naturais estão cheias de ambiguidade, que as pessoas lidam usando pistas contextuais e outras informações.
+  As linguagens formais são projetadas para não serem ambiguas, o que significa que qualquer programa tem exatamente um significado, independentemente do contexto.
+  - **Redundância:**: Para compensar a ambiguidade e reduzir mal-entendidos, as linguagens naturais usam redundância.
+  Como resultado, elas são frequentemente prolixas.
+  As linguagens formais são menos redundantes e mais concisas.
+  - **Literalidade:**: As linguagens naturais estão cheias de idiomatismo e metáfora.
+  As linguagens formais significam exatamente o que dizem.
+
+Porque todos nós crescemos falando línguas naturais, às vezes é difícil ajustar às linguagens formais.
+As linguagens formais são mais densas do que as linguagens naturais, por isso leva mais tempo para lê-las.
+
+Além disso, a estrutura é importante, por isso nem sempre é melhor ler de cima para baixo, da esquerda para a direita.
+
+Finalmente, os detalhes importam.
+Pequenos erros de ortografia e pontuação, com os quais você pode se safar em línguas naturais, podem fazer uma grande diferença em uma linguagem formal.
+
+## Depuração
+
+Programadores cometem erros.
+Por razões caprichosas, erros de programação são chamados de **bugs** e o processo de rastreá-los é chamado de **debugging**.
+
+A programação, e especialmente o debug, às vezes trazem fortes emoções.
+Se você estiver lutando com um bug difícil, você pode sentir raiva, tristeza ou vergonha.
+
+Preparar-se para essas reações pode ajudá-lo a lidar com elas.
+Uma abordagem é pensar no computador como um funcionário com certas forças, como velocidade e precisão, e fraquezas particulares, como falta de empatia e incapacidade de compreender o quadro geral.
+
+Seu trabalho é ser um bom gerente: encontrar maneiras de tirar vantagem das forças e mitigar as fraquezas.
+Você deverá encontrar maneiras de usar suas emoções para se envolver com o problema, sem deixar que suas reações interfiram na sua capacidade de trabalhar eficazmente.
+
+Aprender a depurar pode ser frustrante, mas é uma habilidade valiosa e útil para muitas atividades além da programação.
+No final de cada capítulo, há uma seção, como esta, com minhas sugestões para depuração.
+
+Espero que ajudem!
