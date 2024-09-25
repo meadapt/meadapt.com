@@ -286,12 +286,12 @@ Para escrever uma string, podemos colocar uma sequência de letras dentro de asp
 === "Código"
 
     ```python
-    'Hello'
+    'Olá'
     ```
 === "Resultado"
 
     ```python
-    Hello
+    Olá
     ```
 
 Também é permitido usar aspas duplas.
@@ -299,12 +299,12 @@ Também é permitido usar aspas duplas.
 === "Código"
 
     ```python
-    "Hello"
+    "Olá"
     ```
 === "Resultado"
 
     ```python
-    Hello
+    Olá
     ```
 
 Aspas duplas facilitam a escrita de uma string que contém um apóstrofo, que é o mesmo símbolo que uma aspa simples.
@@ -342,13 +342,13 @@ O acento grave, também conhecido como backtick, causa um erro de sintaxe.
 === "Código"
 
     ```python
-    `Hello`
+    `Olá`
     ```
 === "Resultado"
 
     ```
     File "<stdin>", line 1
-        `Hello`
+        `Olá`
         ^
     SyntaxError: invalid syntax
     ```
@@ -358,13 +358,13 @@ As aspas inteligentes, também conhecidas como aspas curtas, também não são p
 === "Código"
 
     ```python
-    ‘Hello’
+    ‘Olá’
     ```
 === "Resultado"
 
     ```
     File "<stdin>", line 1
-        ‘Hello’
+        ‘Olá’
         ^
     SyntaxError: invalid character '‘' (U+2018)
     ```
@@ -404,7 +404,7 @@ Por fim, também temos a função `len` que calcula o comprimento de uma string.
 === "Código"
 
     ```python
-    len('Spam') # (1)
+    len('Olá') # (1)
     ```
 
     1. :person_raising_hand_tone2: Observe são contadas apenas as letras entre as aspas, mas não as aspas.
@@ -412,5 +412,183 @@ Por fim, também temos a função `len` que calcula o comprimento de uma string.
 === "Resultado"
 
     ```
-    4
+    3
+    ```
+
+## Valores e Tipos
+
+Até agora, vimos três tipos de valores:
+
+  - **2** é um inteiro.
+  - **42.0** é um número de ponto flutuante.
+  - **'Olá'** é uma cadeia de caracteres ou string.
+
+Cada valor pertence a um tipo ou categoria.
+O Python fornece a função chamada `type` que informa o tipo de qualquer valor.
+
+O tipo de um inteiro é `int`:
+
+=== "Código"
+
+    ```python
+    type(2)
+    ```
+=== "Resultado"
+
+    ```
+    <class 'int'>
+    ```
+
+O tipo de um número de ponto flutuante é `float`:
+
+=== "Código"
+
+    ```python
+    type(42.0)
+    ```
+=== "Resultado"
+
+    ```
+    <class 'float'>
+    ```
+
+E o tipo de uma cadeia de caracteres é `str`.
+
+=== "Código"
+
+    ```python
+    type('Olá, Mundo!')
+    ```
+=== "Resultado"
+
+    ```
+    <class 'str'>
+    ```
+
+Em todos os resultado mostrados acima para a função `type`, a palavra `class` é usada com sentido de categoria.
+Um tipo é uma categoria deste valor.
+
+Os tipos `int`, `float` e `str` podem ser usados como funções.
+Por exemplo, `int` pode pegar um `float` e convertê-lo em um inteiro (sempre arredondando para baixo):
+
+=== "Código"
+
+    ```python
+    int(42.9)
+    ```
+=== "Resultado"
+
+    ```
+    42
+    ```
+
+E `float` pode converter um inteiro em um valor de ponto flutuante:
+
+=== "Código"
+
+    ```python
+    float(42)
+    ```
+=== "Resultado"
+
+    ```
+    42.0
+    ```
+
+Agora, aqui está algo que pode ser confuso.
+O que você obtém se colocar uma sequência de dígitos entre aspas?
+Pode parecer um número, mas na verdade é um `int`.
+
+=== "Código"
+
+    ```python
+    type('126')
+    ```
+=== "Resultado"
+
+    ```
+    <class 'str'>
+    ```
+
+Se você tentar usá-lo como um número, poderá receber um erro.
+
+=== "Código"
+
+    ```python
+    '126' / 3
+    ```
+=== "Resultado"
+
+    ```python
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    TypeError: unsupported operand type(s) for /: 'str' and 'int'
+    ```
+Este exemplo gera um `TypeError`, o que significa que os valores na expressão, chamados de `operands`, têm o tipo errado.
+A mensagem de erro indica que o operador `/` não suporta os tipos desses valores, que são `str` e `int`.
+
+Se você tiver uma cadeia de caracteres que contém dígitos, pode usar `int` para convertê-la em um inteiro.
+
+```python
+int('126') / 3
+```
+
+=== "Código"
+
+    ```python
+    int('126') / 3
+    ```
+=== "Resultado"
+
+    ```python
+    42.0 # (1)
+    ```
+
+    1. :woman_raising_hand_tone1: Lembre-se que o [resultado de uma divisão com operador `/`](#__tabbed_4_1) é um `float`.
+
+Se você tiver uma cadeia de caracteres que contém dígitos e um ponto decimal, pode usar `float` para convertê-la em um número de ponto flutuante.
+
+```python
+float('12.6')
+```
+
+=== "Código"
+
+    ```python
+    float('12.6')
+    ```
+=== "Resultado"
+
+    ```python
+    12.6
+    ```
+
+Quando você escreve um grande inteiro, você pode ser tentado a usar vírgulas entre grupos de dígitos, como em `1,000,000`.
+Esta é uma expressão válida em Python, mas o resultado não é um inteiro.
+
+=== "Código"
+
+    ```python
+    1,000,000
+    ```
+=== "Resultado"
+
+    ```python
+    (1, 0, 0)
+    ```
+
+O Python interpreta `1,000,000` como uma sequência de inteiros separada por vírgulas.
+Aprenderemos sobre esse tipo de sequência mais tarde.
+
+Você pode usar `_` para tornar grandes números mais fáceis de ler.
+
+=== "Código"
+
+    ```python
+    1_000_000
+    ```
+=== "Resultado"
+
+    ```python
+    1000000
     ```
