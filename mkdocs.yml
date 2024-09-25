@@ -125,6 +125,7 @@ plugins:
       video_muted: True
       video_controls: True
       video_autoplay: False
+  - mkdocs_quiz
 
 watch:
   - includes
