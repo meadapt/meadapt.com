@@ -638,3 +638,42 @@ Aprender a depurar pode ser frustrante, mas é uma habilidade valiosa e útil pa
 No final de cada capítulo, há uma seção, como esta, com minhas sugestões para depuração.
 
 Espero que ajudem!
+
+## Glossário
+
+- **Operador aritmético:** Um símbolo, como `+` e `*`, que denota uma operação aritmética como adição ou multiplicação.
+
+- **Inteiro:** Um tipo que representa números inteiros ou da classe `int`.
+
+- **Ponto flutuante:** Um tipo que representa números com partes fracionárias ou da classe `float`.
+
+- **Divisão inteira:** Um operador, `//`, que divide dois números e arredonda para baixo para um inteiro (1).
+
+- **Expressão:** Uma combinação de variáveis, valores e operadores.
+
+- **Valor:** Um `int`, `float` ou `str`, ou um dos outros tipos de valores que veremos mais tarde.
+
+- **Função:** Uma sequência nomeada de instruções que executa alguma operação útil.
+As funções podem ou não receber argumentos e podem ou não produzir um resultado.
+
+- **Chamada de função:** Uma expressão, ou parte de uma expressão, que executa uma função. Consiste no nome da função seguido por uma lista de argumentos entre parênteses.
+
+- **Erro de sintaxe:** Um erro em um programa que o torna impossível de analisar, e portanto impossível de executar.
+
+- **Cadeia de caracteres:** Um tipo que representa sequências de caracteres ou `str`.
+
+- **Concatenação:** Juntar duas ou mais `str` de ponta a ponta.
+
+- **Tipo:** Uma categoria de valores.
+Os tipos que vimos até agora são inteiros `int`, números de ponto flutuante `float` e cadeias de caracteres`str`.
+
+- **Operando:** Um dos valores sobre os quais um operador opera.
+
+- **Linguagem natural:** Qualquer uma das línguas que as pessoas falam e que evoluíram naturalmente.
+
+- **linguagem formal:** Qualquer uma das linguagens que as pessoas projetaram para propósitos específicos, como representar ideias matemáticas ou programas de computador.
+Todas as linguagens de programação são linguagens formais.
+
+- **Bug:** Um erro em um programa.
+
+- **Debugging:** O processo de encontrar e corrigir bugs.
