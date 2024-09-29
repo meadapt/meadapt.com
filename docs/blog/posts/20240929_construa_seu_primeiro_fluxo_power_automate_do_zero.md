@@ -211,6 +211,37 @@ Configuraremos a condição que permitirá ajustar, de maneira dinâmica, o núm
         5((Fim))
         classDef conditions fill:#f96
     ```
+## Montando seu robô
+
+No vídeo incluído no início do post está a construção detalhada de nosso fluxo RPA para consulta de CEPs.
+**Para que você realmente aprenda, recomendo fortemente que além de assistir o vídeo, você repita todos os passos demonstrados no vídeo.**
+
+Como prometido na introdução do post, incluo abaixo o código final do protótipo criado.
+Ele servirá, entre outros, de molde para conferência o que você criou.
+
+Siga as instruções abaixo para sua utilização.
+Mas lembre-se, não copie e cole cegamente as informações abaixo.
+Entenda seu funcionamento e, caso precise, ajuste-o às suas necessidades.
+
+<div class="grid" markdown>
+
+[:fontawesome-solid-1: :octicons-copy-16: __Copie o código do robô__]() (1) e cole em um novo fluxo Power Automate Desktop.
+{ .card .annotate }
+
+1. :man_raising_hand: Na nova aba que será aberta, basta apertar ++ctrl+a++ para selecionar todo código e ++ctrl+c++ para copiar.
+
+[:fontawesome-solid-2: :material-application-variable: __Clique aqui para baixar a planilha modelo__](javascript:void(0);) (1).
+{ #download-button .card .annotate path="assets/fornecedores.csv" fileName="fornecedores.xlsx" }
+
+1. :woman_raising_hand: Qualquer modificação além da inclusão de mais CPFs na planilha modelo pode exigir modificações no código original do robô. Download desta planilha não é suportado na versão mobile desta página.
+
+:fontawesome-solid-3: :material-application-variable: __Crie a variável de entrada__ `caminho_excel` com o caminho onde a planilha modelo foi salva.
+{ .card }
+
+:fontawesome-solid-4: :material-run: __Execute o fluxo__ e faça as adaptações que achar necessárias.
+{ .card }
+
+</div>
 
 ## Conclusão
 
