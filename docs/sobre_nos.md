@@ -16,13 +16,20 @@ hide:
 
 ## Conheça a Me Adapt { .h2-center }
 
+Na Me Adapt, acreditamos que todos podem se tornar protagonistas de suas jornadas tecnológicas. Nossa história começou com uma conversa simples, onde Raiane, ao ajudar seu irmão a navegar por ferramentas complexas, percebeu a dificuldade de muitos em se adaptar a um mundo digital em constante evolução. Com isso, nasceu a vontade de tornar a tecnologia acessível e descomplicada.
+
+Raiane e Gabriel, ambos formados em administração pública e servidores públicos, se conheceram durante um projeto de automação robótica. Apesar de suas trajetórias distintas, compartilhavam o mesmo desejo: aprender e ensinar. Juntos, decidiram criar a Me Adapt, um espaço onde pessoas fora da área de tecnologia pudessem se sentir confiantes e capacitadas a resolver seus próprios desafios.
+
+Nossa missão é empoderar indivíduos, proporcionando conhecimento e ferramentas tecnológicas de forma acessível. Acreditamos que, ao compartilhar essa jornada, formamos uma comunidade vibrante, onde todos aprendem e crescem juntos. Estamos aqui para simplificar o aprendizado e inspirar a autonomia. Venha conosco nessa aventura!
+
+
 <div class="grid cards card-border-radius" markdown>
 
 - <p class="text-larger" markdown>:simple-python:{ .lg .middle .light-red } __A nossa missão__</p>
 
     ---
 
-    As Python's official documentation says, it's a powerful and easy to learn programming language.
+    Nossa missão é empoderar indivíduos, proporcionando conhecimento e ferramentas tecnológicas de forma acessível.
 
     <!-- [:octicons-arrow-right-24: Python official documentation](https://docs.python.org/3/tutorial/index.html) -->
 
@@ -30,7 +37,7 @@ hide:
 
     ---
 
-    Using Git and GitHub is cool because they enable collaboration, version control, and seamless project management.
+    Acreditamos que, ao compartilhar essa jornada, formamos uma comunidade vibrante, onde todos aprendem e crescem juntos.
 
     <!-- [:octicons-arrow-right-24: Visit my account](https://github.com/gabrielbdornas) -->
 
@@ -39,7 +46,7 @@ hide:
 
     ---
 
-    Let's focus our attention on creating good quality content and let the right tools let the hard work for us.
+    Estamos aqui para simplificar o aprendizado e inspirar a autonomia. Nosso conteúdo é simples e pensado para você.
 
     <!-- [:octicons-arrow-right-24: Read more about this philosophy](https://www.writethedocs.org/guide/docs-as-code/) -->
 <!-- 
@@ -129,19 +136,19 @@ Clique [aqui](blog/posts/20231229_metricas/index.md) para mais detalhes sobre es
 
 ## Nossa História { .h2-center }
 
-=== "NOSSA INSPIRAÇÃO"
+=== "A Inspiração por Trás da Me Adapt"
 
     <div class="grid cards" markdown>
 
-    -  <p class="p-center" markdown>__A utilização do Power Automate no projeto Automatiza.MG visa inserir óbitos no SISAP, prevenindo pagamentos indevidos a servidores falecidos e protegendo os cofres públicos. A automação reduziu significativamente o tempo necessário para concluir o serviço, além de aumentar a precisão e bem-estar da equipe. Isso permitiu direcionar atenção para outras atividades, racionalizando esforços e reduzindo o retrabalho, como o processamento de estornos bancários__</p>.
+    -  <p class="p-center" markdown>__Nossa história começou com uma conversa simples, onde Raiane, ao ajudar seu irmão a navegar por ferramentas complexas, percebeu a dificuldade de muitos em se adaptar a um mundo digital em constante evolução. Com isso, nasceu a vontade de tornar a tecnologia acessível e descomplicada.__</p>.
 
     </div>
 
-=== "COMO TUDO COMEÇOU"
+=== "A Jornada dos Fundadores"
 
     <div class="grid cards" markdown>
 
-    -  <p class="p-center" markdown>__A utilização do Power Automate no projeto Automatiza.MG visa inserir óbitos no SISAP, prevenindo pagamentos indevidos a servidores falecidos e protegendo os cofres públicos. A automação reduziu significativamente o tempo necessário para concluir o serviço, além de aumentar a precisão e bem-estar da equipe. Isso permitiu direcionar atenção para outras atividades, racionalizando esforços e reduzindo o retrabalho, como o processamento de estornos bancários__</p>.
+    -  <p class="p-center" markdown>__Raiane e Gabriel, ambos formados em administração pública e servidores públicos, se conheceram durante um projeto de automação robótica. Apesar de suas trajetórias distintas, compartilhavam o mesmo desejo: aprender e ensinar. Juntos, decidiram criar a Me Adapt, um espaço onde pessoas fora da área de tecnologia pudessem se sentir confiantes e capacitadas a resolver seus próprios desafios.__</p>.
 
     </div>
 
