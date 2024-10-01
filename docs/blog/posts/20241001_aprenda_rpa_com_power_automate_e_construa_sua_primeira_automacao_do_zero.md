@@ -7,7 +7,7 @@ categories:
   - Power Automate
 ---
 
-# Construa seu primeiro fluxo RPA com Power Automate do zero
+# Aprenda RPA com Power Automate e construa sua primeira automação do zero
 
 No post [5 motivos para aprender ferramentas de automação (RPA) URGENTE](./20240914_5_motivos_para_aprender_automacao.md){ target='_blank' } te mostrei a importância de aprender e utilizar ferramentas de RPA.
 Em resumo, ganhamos tempo (nosso recurso mais preciosos), melhoramos a eficiência operacional e, em última análise, oferecemos serviços com maior qualidade.
@@ -19,7 +19,43 @@ Te darei neste post meu quite de sobrevivência para iniciantes.
 Você sairá daqui com um fluxo que consulta de CEPs, pronto para uso.
 Tudo isso com a explicação dos conceitos básicos necessários, claro.
 
-![type:video](https://www.youtube.com/embed/ijJdrQYm6vM)
+??? "Playlist Aprenda RPA com Power Automate[^4]"
+
+    ??? "Instalação da ferramenta"
+
+        **Vídeo disponivel no YouTube a partir do dia 02/10/2024 às 19 horas.**
+
+        ![type:video](https://www.youtube.com/embed/YtPN0AVckvg)
+
+    ??? "Ações"
+
+        **Vídeo disponivel no YouTube a partir do dia 09/10/2024 às 19 horas.**
+
+        ![type:video](https://www.youtube.com/embed/CgVr23eMVCg)
+
+    ??? "Variáveis"
+
+        **Vídeo disponivel no YouTube a partir do dia 16/10/2024 às 19 horas.**
+
+        ![type:video](https://www.youtube.com/embed/ZJBDF_2QdPE)
+
+    ??? "Condições If/Else"
+
+        **Vídeo disponivel no YouTube a partir do dia 23/10/2024 às 19 horas.**
+
+        ![type:video](https://www.youtube.com/embed/DLzgdz61qbs)
+
+    ??? "Repetição - Loop"
+
+        **Vídeo disponivel no YouTube a partir do dia 30/10/2024 às 19 horas.**
+
+        ![type:video](https://www.youtube.com/embed/9-szNue9uUY)
+
+    ??? "Bônus"
+
+        **Vídeo disponivel no YouTube a partir do dia 06/11/2024 às 19 horas.**
+
+        ![type:video](https://www.youtube.com/embed/6N4SREZASF8)
 
 ## RPA para consulta de CEPs
 
@@ -213,11 +249,14 @@ Configuraremos a condição que permitirá ajustar, de maneira dinâmica, o núm
     ```
 ## Montando seu robô
 
-No vídeo incluído no início do post está a construção detalhada de nosso fluxo RPA para consulta de CEPs.
-**Para que você realmente aprenda, recomendo fortemente que além de assistir o vídeo, você repita todos os passos demonstrados no vídeo.**
+Nos vídeos incluídos no início do post[^4] está a construção detalhada de nosso fluxo RPA para consulta de CEPs.
+**Para que você realmente aprenda, recomendo fortemente que além de assistir o vídeo, repita todos os passos demonstrados (1).**
+{ .annotate }
+
+1. :person_mountain_biking_tone5: Lembre-se, você não aprende a andar de bicicleta apenas lendo um manual ou vendo um vídeo, precisa praticar. Aqui não será diferente!!
 
 Como prometido na introdução do post, incluo abaixo o código final do protótipo criado.
-Ele servirá, entre outros, de molde para conferência o que você criou.
+Ele servirá, entre outros, de molde para conferência do que você criou.
 
 Siga as instruções abaixo para sua utilização.
 Mas lembre-se, não copie e cole cegamente as informações abaixo.
@@ -225,7 +264,12 @@ Entenda seu funcionamento e, caso precise, ajuste-o às suas necessidades.
 
 <div class="grid" markdown>
 
-[:fontawesome-solid-1: :octicons-copy-16: __Copie o código do robô__]() (1) e cole em um novo fluxo Power Automate Desktop.
+[:fontawesome-solid-1: :octicons-copy-16: __Copie este código__]() (1) e cole em um novo fluxo Power Automate Desktop.
+{ .card .annotate }
+
+1. :man_raising_hand: Na nova aba que será aberta, basta apertar ++ctrl+a++ para selecionar todo código e ++ctrl+c++ para copiar.
+
+[:fontawesome-solid-1: :octicons-copy-16: __Copie o este código__]() (1) e cole em um novo subfluxo chamado `busca_cep` no fluxo Power Automate Desktop criado no item anterior.
 { .card .annotate }
 
 1. :man_raising_hand: Na nova aba que será aberta, basta apertar ++ctrl+a++ para selecionar todo código e ++ctrl+c++ para copiar.
@@ -233,10 +277,7 @@ Entenda seu funcionamento e, caso precise, ajuste-o às suas necessidades.
 [:fontawesome-solid-2: :material-application-variable: __Clique aqui para baixar a planilha modelo__](javascript:void(0);) (1).
 { #download-button .card .annotate path="assets/fornecedores.csv" fileName="fornecedores.xlsx" }
 
-1. :woman_raising_hand: Qualquer modificação além da inclusão de mais CPFs na planilha modelo pode exigir modificações no código original do robô. Download desta planilha não é suportado na versão mobile desta página.
-
-:fontawesome-solid-3: :material-application-variable: __Crie a variável de entrada__ `caminho_excel` com o caminho onde a planilha modelo foi salva.
-{ .card }
+1. :woman_raising_hand: Modifique o a primeira ação do subfluxo `Main` com o caminho onde a planilha modelo foi salva. Qualquer modificação além da inclusão de mais CPFs na planilha modelo pode exigir modificações no código original do robô. Download desta planilha não é suportado na versão mobile desta página.
 
 :fontawesome-solid-4: :material-run: __Execute o fluxo__ e faça as adaptações que achar necessárias.
 { .card }
@@ -254,3 +295,4 @@ Com o Power Automate, você tem o poder de transformar processos manuais em auto
 [^1]: Não é nossa intenção aqui explicar todas as ações disponíveis, pois são muitas. Navegue nesta lista e tente, por conta própria, utilizar ações que te chamaram atenção, uma vez que suas configurações são, via de regra, bastante autoexplicativas.
 [^2]: Instâncias no Power Automate são aplicativos abertos pelo fluxo, como um navegador ou uma planilha de Excel. Elas permitem que o Power Automate interaja diretamente com esses aplicativos, como se você estivesse clicando ou digitando neles.
 [^3]: Não utilize espaços e ou caracteres especiais como acentos, cedilha e til, para renomear as variáveis de fluxo. Sugerimos a utilização de letras minúsculas, separadas por underscore (`_`) como em `resultado_pesquisa`.
+[^4]: Previsão para disponibilização de todos os vídeos é 06/11/2024. Os vídeos serão publicados semanalmente, às quartas-feiras, a partir de 02/10/2024, às 19 horas.
