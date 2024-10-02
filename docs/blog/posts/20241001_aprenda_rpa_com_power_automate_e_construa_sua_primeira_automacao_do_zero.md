@@ -264,18 +264,18 @@ Entenda seu funcionamento e, caso precise, ajuste-o às suas necessidades.
 
 <div class="grid" markdown>
 
-[:fontawesome-solid-1: :octicons-copy-16: __Copie este código__]() (1) e cole em um novo fluxo Power Automate Desktop.
+[:fontawesome-solid-1: :octicons-copy-16: __Copie este código__](https://raw.githubusercontent.com/meadapt/biblioteca-robos/refs/heads/main/robos/busca_cep/main.txt) (1) e cole em um novo fluxo Power Automate Desktop.
 { .card .annotate }
 
 1. :man_raising_hand: Na nova aba que será aberta, basta apertar ++ctrl+a++ para selecionar todo código e ++ctrl+c++ para copiar.
 
-[:fontawesome-solid-1: :octicons-copy-16: __Copie o este código__]() (1) e cole em um novo subfluxo chamado `busca_cep` no fluxo Power Automate Desktop criado no item anterior.
+[:fontawesome-solid-1: :octicons-copy-16: __Copie o este código__](https://raw.githubusercontent.com/meadapt/biblioteca-robos/refs/heads/main/robos/busca_cep/main.txt) (1) e cole em um novo subfluxo chamado `busca_cep` no fluxo Power Automate Desktop criado no item anterior.
 { .card .annotate }
 
 1. :man_raising_hand: Na nova aba que será aberta, basta apertar ++ctrl+a++ para selecionar todo código e ++ctrl+c++ para copiar.
 
 [:fontawesome-solid-2: :material-application-variable: __Clique aqui para baixar a planilha modelo__](javascript:void(0);) (1).
-{ #download-button .card .annotate path="assets/fornecedores.csv" fileName="fornecedores.xlsx" }
+{ #download-button .card .annotate path="../busca_cep.csv" fileName="busca_cep.xlsx" }
 
 1. :woman_raising_hand: Modifique o a primeira ação do subfluxo `Main` com o caminho onde a planilha modelo foi salva. Qualquer modificação além da inclusão de mais CPFs na planilha modelo pode exigir modificações no código original do robô. Download desta planilha não é suportado na versão mobile desta página.
 
