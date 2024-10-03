@@ -175,10 +175,6 @@ No seguinte exemplo, a multiplicação acontece antes da adição:
 
 Se quiser que a adição aconteça primeiro, você pode usar parênteses.
 
-```python
-In [12]: (12 + 5) * 6
-```
-
 === "Código"
 
     ```python
@@ -533,10 +529,6 @@ A mensagem de erro indica que o operador `/` não suporta os tipos desses valore
 
 Se você tiver uma cadeia de caracteres que contém dígitos, pode usar `int` para convertê-la em um inteiro.
 
-```python
-int('126') / 3
-```
-
 === "Código"
 
     ```python
@@ -681,4 +673,3 @@ Todas as linguagens de programação são linguagens formais.
 - **Bug:** Um erro em um programa.
 
 - **Debugging:** O processo de encontrar e corrigir bugs.
-
