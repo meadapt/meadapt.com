@@ -10,12 +10,12 @@ categories:
 # Aprenda RPA com Power Automate e construa sua primeira automação do zero
 
 No post [5 motivos para aprender ferramentas de automação (RPA) URGENTE](./20240914_5_motivos_para_aprender_automacao.md){ target='_blank' } te mostrei a importância de aprender e utilizar ferramentas de RPA.
-Em resumo, ganhamos tempo (nosso recurso mais preciosos), melhoramos a eficiência operacional e, em última análise, oferecemos serviços com maior qualidade.
+Em resumo, ganhamos tempo (nosso recurso mais precioso), melhoramos a eficiência operacional e, em última análise, oferecemos serviços com maior qualidade.
 Agora é o momento de te mostrar, na prática, como o **Power Automate** pode acabar com suas operações repetitivas.
 
 <!-- more -->
 
-Te darei neste post meu quite de sobrevivência para iniciantes.
+Te darei neste post meu kit de sobrevivência para iniciantes.
 Você sairá daqui com um fluxo que consulta de CEPs, pronto para uso.
 Tudo isso com a explicação dos conceitos básicos necessários, claro.
 
