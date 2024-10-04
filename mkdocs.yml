@@ -61,7 +61,7 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_div_format
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -73,12 +73,8 @@ markdown_extensions:
 
 extra_css:
   - assets/style.css
-  - https://unpkg.com/mermaid@8.5.1/dist/mermaid.css
 extra_javascript:
   - assets/style.js
-  - https://unpkg.com/mermaid@8.5.1/dist/mermaid.min.js
-  - assets/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra: # Footer
   social:
