@@ -91,7 +91,7 @@ extra: # Footer
       link: https://www.youtube.com/channel/UCoMuk7Pk3VzUYQtuqa6fLTw
     - icon: simple/github
       name: My GitHub Account.
-      link: http://github.com/gabrielbdornas
+      link: http://github.com/meadapt
   analytics:
     provider: google
     property: G-0QEE78N4QK
