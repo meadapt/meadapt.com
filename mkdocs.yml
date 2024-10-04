@@ -11,7 +11,7 @@ site_description: >-
 
 nav:
   - Home: index.md
-  - Things I Can Do: /#things-i-can-do
+  - Vem conhecer: /#vem-conhecer
   - Blog: blog/index.md
 
 # Configuration

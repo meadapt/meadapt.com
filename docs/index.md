@@ -14,9 +14,17 @@ hide:
   }
 </style>
 
-## Things I Can Do { .h2-center }
+## Vem Conhecer { .h2-center }
 
 <div class="grid cards card-border-radius" markdown>
+
+- <p class="text-larger" markdown>:material-microsoft:{ .lg .middle .light-red } __RPA com Power Automate__</p>
+
+    ---
+
+    5 motivos para aprender ferramentas de automação (RPA) URGENTE.
+
+    [:octicons-arrow-right-24: Não perca tempo](blog/posts/20240914_5_motivos_para_aprender_automacao.md)
 
 - <p class="text-larger" markdown>:simple-python:{ .lg .middle .light-red } __Write code in Python__</p>
 
@@ -59,14 +67,6 @@ hide:
     Open source fosters collaborative innovation, and has the potential to enhance public administration efficiency.
 
     [:octicons-arrow-right-24: Read more about it](https://en.wikipedia.org/wiki/Open_source)
-
-- <p class="text-larger" markdown>:simple-powerautomate:{ .lg .middle .light-red } __Use Power Automate__</p>
-
-    ---
-
-    Power Automate empowers non-programmers to automate tasks, boost productivity, and innovate effortlessly.
-
-    [:octicons-arrow-right-24: Get to know the Automatiza.MG project](https://www.planejamento.mg.gov.br/automatizamg)
 
 </div>
 
