@@ -4,10 +4,15 @@ site_name: meadapt.com
 repo_name: meadapt/meadapt.com
 repo_url: https://github.com/meadapt/meadapt.com
 edit_uri: edit/main/docs/
+site_description: >-
+  Aprenda RPA com Power Automate de forma simples e descomplicada.
+  A MeAdapt te ajuda a dominar novas tecnologias com cursos práticos e acessíveis.
+  Tudo pensado para que você supere qualquer desafio tecnológico.
 
 nav:
   - Home: index.md
-  - Things I Can Do: /#things-i-can-do
+  - Vem conhecer: /#vem-conhecer
+  - Sobre Nós: /#sobre-nos
   - Blog: blog/index.md
 
 # Configuration
@@ -83,7 +88,7 @@ extra: # Footer
       link: https://www.youtube.com/channel/UCoMuk7Pk3VzUYQtuqa6fLTw
     - icon: simple/github
       name: My GitHub Account.
-      link: http://github.com/gabrielbdornas
+      link: http://github.com/meadapt
   analytics:
     provider: google
     property: G-0QEE78N4QK
