@@ -19,6 +19,8 @@ Te darei neste post meu kit de sobrevivência para iniciantes.
 Você sairá daqui com um fluxo que consulta de CEPs, pronto para uso.
 Tudo isso com a explicação dos conceitos básicos necessários, claro.
 
+Se você tiver alguma dúvida na instalação da ferramenta, não deixe de conferir nosso post [Dicas de como instalar a ferramenta de RPA Power Automate](../posts/20241007_dicas_de_como_instalar_a_ferramenta_de_rpa_power_automate.md).
+
 ??? "Playlist Aprenda RPA com Power Automate[^4]"
 
     ??? "Instalação da ferramenta"
