@@ -1,6 +1,6 @@
 ---
-date: 2024-10-07
-draft: True
+date: 2024-10-16
+draft: False
 authors: [gabrielbdornas]
 comments: true
 categories:
