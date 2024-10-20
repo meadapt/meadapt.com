@@ -12,127 +12,114 @@ categories:
 
 Se você está buscando pela melhor ferramenta de RPA para aprender ou para começar a usar na sua empresa, preparamos esse post para te ajudar a escolher! 
 
-**Não está convencido de aprender sobre ferramentas RPA?** 
-
-[Veja 5 motivos para aprender ferramentas de automação (RPA) URGENTE!](../posts/20240914_5_motivos_para_aprender_automacao.md)
+**Não está convencido de aprender sobre ferramentas RPA?** [Veja 5 motivos para aprender ferramentas de automação (RPA) URGENTE!](../posts/20240914_5_motivos_para_aprender_automacao.md)
 
 
 <!-- more -->
 
-## 1. Como escolher?
+## Como escolher
 
-Bom, comecemos pelo básico: não existe a melhor ferramenta de RPA, mas sim a mais adequada para você. 
+Bom, comecemos respondendo a pergunta do título deste post - Qual a melhor ferramenta RPA? -, e a resposta é: depende! **A realidade é que não existe a melhor ferramenta, mas sim a mais adequada para você.** 
 
-O mercado oferece diversas opções de serviços de automação de processos, cada um com as suas vantagens e desvantagens. A escolha da ferramenta ideal depende das suas necessidades específicas.
+Atualmente, o mercado oferece diversas opções de serviços de automação de processos, cada um com as suas vantagens e desvantagens (para você). A escolha da ferramenta ideal depende das suas necessidades específicas. Mas, não se preocupe, estamos aqui pra te ajudar a navegar nesse mundo e, no final deste post, deixamos na nossa recomendação! :wink:
 
-Dessa forma, sugerimos que, antes de se perguntar 'qual a melhor ferramenta RPA', você se pergunte: 
+Para descobrir qual a melhor ferramenta RPA pra você, sugerimos que, substitua a pergunta 'qual a melhor ferramenta RPA', pelas perguntas abaixo: 
 
-=== "1"
-
-    **O que eu preciso ou qual o problema eu quero resolver?**
-
-=== "2"
-
-    **Qual a complexidade dos processos que desejo automatizar?**
-
-=== "3"
-
-    **Quais funcionalidades eu preciso?**
-
-=== "4"
-
-    **Quais os recursos eu já possuo (infraestrutura tecnológica, pessoas,orçamento disponível, etc)?**
-
-=== "5"
-
-    **Qual o meu nível de familiaridade com ferramentas RPA?**
-
+- **O que eu preciso ou qual o problema eu quero resolver?**
+- **Qual a complexidade dos processos que desejo automatizar?**
+- **Quais funcionalidades eu preciso?**
+- **Quais os recursos eu já possuo (infraestrutura tecnológica, pessoas, orçamento disponível, etc)?**
+- **Qual o meu nível de familiaridade com ferramentas RPA?**
 
 Estas questões irão te ajudar a entender as suas necessidade e o seu contexto e, a partir dessa análise, ajudar a determinar qual ferramenta melhor se alinha aos seus objetivos. Afinal, estamos investindo os nossos recursos, seja tempo ou dinheiro, e queremos tomar a melhor decisão possível.
 
-## 2. Quais são opções?
+## Algumas opções
 
-Aqui estão algumas das melhores ferramentas de RPA (Automação de Processos Robóticos) disponíveis no mercado, com uma breve comparação entre elas:
+Bom, agora que você conhece melhor as suas necessidades, está na hora de ver o que o mercado oferece e se elas podem ou não atender o que você deseja. Pedimos ao Chat GPT para listar  algumas das melhores ferramentas de RPA disponíveis no mercado, com uma breve comparação entre elas de questões que consideramos importantes para você avaliar. 
+
+Se alguma dessas ferramentas chamar a sua atenção, sugerimos que você busque mais informações no site oficial da ferramenta, leia a documentação disponível e verifique questões técnicas importantes.
+
+??? success "Se ligue nessas dicas"
+
+    - **Idiomas:** Algumas ferramentas e suporte não estão disponíveis em português, o que pode ser importante na implementação 
+    - **Personalização:** Muitos fornecedores oferecem pacotes personalizados que podem afetar o preço final.
+    - **Suporte e Treinamento:** O custo do suporte e do treinamento pode ser um adicional importante.
+    - **Demonstrações e Trials:** Algumas ferramentas oferecem versões de teste gratuitas ou demonstrações, o que pode ser útil para avaliar a ferramenta antes da compra.
+
+Além disso, é sempre recomendável entrar em contato diretamente com os fornecedores para obter cotações mais precisas e entender todos os custos envolvidos. Os preços das ferramentas de RPA podem variar bastante, dependendo de fatores como o número de usuários, a escala da implementação e os recursos desejados. Assim, informações apresentadas aqui são apenas estimativas para ajudar na sua análise inicial.
 
 ### 1. **UiPath**
 - **Facilidade de uso:** Interface intuitiva, ideal para iniciantes.
 - **Funcionalidades:** Suporte para automação de desktop e web, com recursos de IA e machine learning.
 - **Escalabilidade:** Boa para empresas de todos os tamanhos.
 - **Suporte:** Comunidade ativa e ampla documentação.
+- **Modelo de Preço:** Licenciamento por usuário ou por robô.
+- **Preço Estimado:** Pode variar de alguns milhares a dezenas de milhares de dólares por ano, dependendo das necessidades da empresa e do número de robôs utilizados.
 
 ### 2. **Automation Anywhere**
 - **Facilidade de uso:** Plataforma baseada em nuvem, com uma curva de aprendizado moderada.
 - **Funcionalidades:** Oferece um robusto conjunto de ferramentas para automação inteligente e análise de dados.
 - **Escalabilidade:** Ideal para grandes organizações.
 - **Suporte:** Boa documentação e suporte ao cliente.
+- **Modelo de Preço:** Licenciamento baseado em nuvem, com opções para robôs individuais e ambientes de produção.
+- **Preço Estimado:** Os preços geralmente começam em torno de $750 por robô por mês, podendo aumentar dependendo da escala e dos serviços adicionais.
 
 ### 3. **Blue Prism**
 - **Facilidade de uso:** Mais técnico, recomendado para equipes com experiência em desenvolvimento.
 - **Funcionalidades:** Focado em automação a nível empresarial com forte segurança e governança.
 - **Escalabilidade:** Muito escalável, ideal para empresas grandes.
 - **Suporte:** Comunidade forte, mas suporte pode ser mais limitado para iniciantes.
+- **Modelo de Preço:** Licença perpétua ou por assinatura.
+- **Preço Estimado:** O custo pode variar, mas geralmente começa em torno de $15.000 a $20.000 por robô por ano.
 
 ### 4. **Pega**
 - **Facilidade de uso:** Interface visual amigável, mas requer algum entendimento prévio.
 - **Funcionalidades:** Combina RPA com BPM (Business Process Management) e IA.
 - **Escalabilidade:** Adequada para grandes empresas com processos complexos.
-- **Suporte:** Suporte sólido, com foco em grandes implementações.
+- **Suporte:** Suporte sólido, com foco em grandes implementações. 
+- **Modelo de Preço:** Licenciamento baseado em uso, focado em grandes implementações.
+- **Preço Estimado:** Os preços são personalizados com base nas necessidades do cliente, mas podem ser bastante elevados, geralmente começando na faixa de dezenas de milhares de dólares.
 
 ### 5. **Microsoft Power Automate**
 - **Facilidade de uso:** Muito acessível, especialmente para usuários do Microsoft 365.
 - **Funcionalidades:** Integra-se bem com outras ferramentas da Microsoft e permite automações simples.
 - **Escalabilidade:** Ideal para pequenas e médias empresas.
 - **Suporte:** Boa documentação e suporte da Microsoft.
-
-### Comparação Geral:
-- **Facilidade de Uso:** UiPath e Power Automate se destacam por suas interfaces intuitivas.
-- **Funcionalidades:** Automation Anywhere e Pega oferecem um conjunto mais robusto de funcionalidades, incluindo IA e BPM.
-- **Escalabilidade:** Blue Prism e Automation Anywhere são mais adequados para grandes organizações.
-- **Suporte e Comunidade:** UiPath e Blue Prism têm comunidades ativas e suporte robusto.
-
-Os preços das ferramentas de RPA podem variar bastante, dependendo de fatores como o número de usuários, a escala da implementação e os recursos desejados. Aqui está uma visão geral dos preços das principais ferramentas de RPA:
-
-### 1. **UiPath**
-- **Modelo de Preço:** Licenciamento por usuário ou por robô.
-- **Preço Estimado:** Pode variar de alguns milhares a dezenas de milhares de dólares por ano, dependendo das necessidades da empresa e do número de robôs utilizados.
-
-### 2. **Automation Anywhere**
-- **Modelo de Preço:** Licenciamento baseado em nuvem, com opções para robôs individuais e ambientes de produção.
-- **Preço Estimado:** Os preços geralmente começam em torno de $750 por robô por mês, podendo aumentar dependendo da escala e dos serviços adicionais.
-
-### 3. **Blue Prism**
-- **Modelo de Preço:** Licença perpétua ou por assinatura.
-- **Preço Estimado:** O custo pode variar, mas geralmente começa em torno de $15.000 a $20.000 por robô por ano.
-
-### 4. **Pega**
-- **Modelo de Preço:** Licenciamento baseado em uso, focado em grandes implementações.
-- **Preço Estimado:** Os preços são personalizados com base nas necessidades do cliente, mas podem ser bastante elevados, geralmente começando na faixa de dezenas de milhares de dólares.
-
-### 5. **Microsoft Power Automate**
 - **Modelo de Preço:** Licenciamento por usuário ou por fluxo de trabalho.
 - **Preço Estimado:** Os planos começam em torno de $15 por usuário por mês, com opções adicionais para fluxos premium.
 
-### Observações:
-- **Personalização:** Muitos fornecedores oferecem pacotes personalizados que podem afetar o preço final.
-- **Suporte e Treinamento:** O custo do suporte e do treinamento pode ser um adicional importante.
-- **Demonstrações e Trials:** Algumas ferramentas oferecem versões de teste gratuitas ou demonstrações, o que pode ser útil para avaliar a ferramenta antes da compra.
+### 6. **Comparação Geral:**
 
-É sempre recomendável entrar em contato diretamente com os fornecedores para obter cotações mais precisas e entender todos os custos envolvidos.
+!!! Resumo
+
+    === "Facilidade de Uso"
+
+        **UiPath e Power Automate se destacam por suas interfaces intuitivas.** 
+
+    === "Funcionalidades"
+    
+        **Automation Anywhere e Pega oferecem um conjunto mais robusto de funcionalidades, incluindo IA e BPM.**
+
+    === "Escalabilidade"
+    
+        **Blue Prism e Automation Anywhere são mais adequados para grandes organizações.**
+
+    === "Suporte e Comunidade"
+    
+        **UiPath e Blue Prism têm comunidades ativas e suporte robusto.**
+
 
 ## Qual ferramenta recomendamos
 
-Vantagens do Microsoft Power Automate:
-Integração Nativa: Power Automate se integra perfeitamente com outras ferramentas do Microsoft 365, como Excel, SharePoint, Outlook e Teams, facilitando automações entre essas plataformas.
+Você já deve ter percebido pelo nosso conteúdo que, aqui na Me Adapt, nós somos fãs do Microsoft Power Automate e temos alguns motivos para isto. E, já adiantamos que não, não somos patrocinados pela Microsoft 365. (Ei, me nota Microsoft 365! :smiley:)
 
-Facilidade de Uso: A interface é intuitiva, permitindo que usuários sem formação técnica criem fluxos de trabalho através de um sistema de arrastar e soltar.
+Brincadeiras à parte, o principal motivo de recomendarmos o Power Automate é simples: é a ferrenta que você, muito provavelmente, terá mais facilidade em usar e que terá acesso facilitado. Nós sabemos do pontencial que as ferramentas RPA têm de trannformar as nossas rotinas de trabalho e queremos você seja capaz de usufruir dessas vantagens também. Para isso, quanto menor as barreiras de acesso, maior é a sua chance de aprender e usar. 
 
-Cursos e Recursos: A Microsoft oferece uma variedade de tutoriais e cursos online para ajudar usuários a aprender como utilizar a ferramenta.
+O Power Automate oferece uma interface intuitiva, de modo que, mesmo uma pessoa sem formação técnica, seja capaz de criar fluxos de trabalho através de um sistema de arrastar e soltar. Se você já está familiarizada com o ecossistema Microsoft, a curva de aprendizado do Microsoft Power Automate pode ser mais suave pra você.
 
-Custo Eficiente: Se sua empresa já possui licenças do Microsoft 365, pode haver uma economia ao usar Power Automate em vez de adquirir licenças separadas de outra ferramenta.
+Além disso, muitas empresas já possuem licenças do Microsoft 365, ou seja, pode ser que você já tenha acesso à ferramenta. E, por fazer parte do ecossistema da Microsoft, o Power Automate se conecta muito bem com ferramentas como Outlook, Sharepoint, Power BI, dentre outras, facilitando a sua rotina de trabalho.
 
-Versatilidade: Permite automações simples e complexas, ideal para otimizar tarefas rotineiras no ambiente de trabalho.
-
-Se você já está familiarizada com o ecossistema Microsoft, o Power Automate pode ser a melhor opção para você. A curva de aprendizado pode ser mais suave e você poderá aplicar as automações de forma mais integrada ao seu fluxo de trabalho diário.
+Caso você não tenha o acesso coorporativo, por meio de uma conta básica de e-mail do Outlook, você pode acessar a versão gratuita do Power Automate, que já permite realizar automações das mais simples às mais complexas, sem a necessidade de adquirir licenças de outra ferramenta.
 
 
 --8<-- "docs/overrides/partials/blog/encontrou_erro.md"
