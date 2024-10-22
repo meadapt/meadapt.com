@@ -162,6 +162,11 @@ body p {
     width: 23em!Important;
   }
 
+  .tx-hero__image{
+    margin-left: 8%;
+    /* padding-right: 1.5rem; */
+  }
+
 }
 
 @media screen and (min-width:60em) {
@@ -214,11 +219,6 @@ body p {
       flex: 1;
       min-width: 0;
   }
-
-  /* .feature-item:hover {
-      background-color: #526cfe47;
-      border-radius: 3px;
-  } */
 }
 
 #logo-mg {
