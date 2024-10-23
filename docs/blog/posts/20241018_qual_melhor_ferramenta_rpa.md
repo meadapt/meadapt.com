@@ -33,11 +33,11 @@ Para descobrir qual a melhor ferramenta RPA pra você, sugerimos que você, subs
 
 Estas questões irão te ajudar a mapear melhor suas necessidade e o seu contexto e, a partir dessa análise, ajudar a determinar qual ferramenta melhor se alinha aos seus objetivos. Afinal, estamos investindo os nossos recursos, seja tempo ou dinheiro, e queremos tomar a melhor decisão possível.
 
-## Ferramentas de RPA
+## Algumas opções
 
-Bom, agora que você conhece melhor as suas necessidades, está na hora de conhecer o que o mercado oferece e se elas podem ou não atender o que você deseja. Pedimos ao Chat GPT para listar algumas das melhores ferramentas de RPA disponíveis no mercado, com uma breve comparação entre elas de questões que consideramos importantes para você avaliar [^1].
+Bom, agora que você conhece melhor as suas necessidades, está na hora de conhecer o que o mercado oferece e se elas podem ou não atender o que você deseja. Pedimos ao Chat GPT para listar algumas das melhores ferramentas de RPA disponíveis no mercado, com uma breve comparação entre elas de questões que consideramos importantes para você avaliar[^1].
 
-Se alguma dessas ferramentas chamar a sua atenção, sugerimos que você busque informações em seu site, leia a documentação disponível e verifique questões técnicas, como as perguntas respondidas acima, importantes para seu caso.
+Se alguma dessas ferramentas chamar a sua atenção, sugerimos que você busque informações em seu site, leia a documentação disponível e verifique questões técnicas importantes para seu caso (pense nas respostas das perguntas acima).
 
 ??? Tip "Se ligue nessas dicas"
 
@@ -127,6 +127,5 @@ Não deixe de ver nossas [Dicas de como instalar a ferramenta de RPA Power Autom
 
 
 --8<-- "docs/overrides/partials/blog/encontrou_erro.md"
-
 
 [^1]: OPENAI. ChatGPT. Disponível em: https://www.openai.com/chatgpt. Acesso em: 18 out. 2024.
