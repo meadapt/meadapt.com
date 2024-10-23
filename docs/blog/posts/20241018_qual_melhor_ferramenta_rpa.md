@@ -1,6 +1,6 @@
 ---
 date: 2024-10-18
-draft: True
+draft: False
 authors: [raianecardoso]
 comments: true
 categories:
