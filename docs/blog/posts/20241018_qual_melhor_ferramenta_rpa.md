@@ -125,6 +125,7 @@ Nós sabemos o pontencial que as ferramentas RPA têm de transformar as nossas r
 
 Não deixe de ver nossas [Dicas de como instalar a ferramenta de RPA Power Automate](https://meadapt.com/blog/dicas-de-como-instalar-a-ferramenta-de-rpa-power-automate/) e comece hoje: [Aprenda RPA com Power Automate e construa sua primeira automação do zero](https://meadapt.com/blog/aprenda-rpa-com-power-automate-e-construa-sua-primeira-automa%C3%A7%C3%A3o-do-zero/).
 
+--8<-- "docs/overrides/partials/blog/curso_power_automate.md"
 
 --8<-- "docs/overrides/partials/blog/encontrou_erro.md"
 

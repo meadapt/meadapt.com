@@ -111,6 +111,8 @@ Ao aprender a usar ferramentas como Power Automate, você estará dando um passo
 
 Não perca tempo!
 
+--8<-- "docs/overrides/partials/blog/curso_power_automate.md"
+
 --8<-- "docs/overrides/partials/blog/encontrou_erro.md"
 
 [^1]: Não recebo qualquer compensação financeira ou benefício por indicar o Power Automate. Minha recomendação é baseada na experiência e na eficácia da ferramenta para automação de processos.
