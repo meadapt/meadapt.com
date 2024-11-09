@@ -13,7 +13,7 @@ nav:
   - Home: index.md
   - Cursos:
     - courses/index.md
-    - Power Automate: courses/power_automate.md
+    - Curso Power Automate: courses/power_automate.md
   - Blog: blog/index.md
 
 # Configuration
@@ -35,6 +35,7 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.tracking
+    - navigation.footer
     - search.highlight
     - search.share
     - search.suggest

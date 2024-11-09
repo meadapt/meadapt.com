@@ -4,7 +4,7 @@ hide:
 comments: true
 ---
 
-# Curso Power Automate MeAdapt
+# Curso Power Automate
 
 ## Qual o objetivo do curso
 

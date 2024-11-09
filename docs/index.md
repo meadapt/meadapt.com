@@ -5,6 +5,7 @@ hide:
   - navigation
   - toc
   - feedback
+  - footer
 ---
 <style>
   .md-typeset h1,
