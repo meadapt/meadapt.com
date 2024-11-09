@@ -12,7 +12,6 @@ site_description: >-
 nav:
   - Home: index.md
   - Vem conhecer: /#vem-conhecer
-  - Sobre Nós: /#sobre-nos
   - Blog: blog/index.md
 
 # Configuration
