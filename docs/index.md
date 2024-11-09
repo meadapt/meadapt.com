@@ -43,9 +43,9 @@ hide:
 
     ---
 
-    Descubra o que é a ferramente e como ela pode te ajudar.
+    Descubra o que é a ferramenta e como ela pode te ajudar.
 
-    [:octicons-arrow-right-24: Não perca tempo]()
+    [:octicons-arrow-right-24: Não perca tempo](blog/posts/20241004_o_que_e_rpa.md)
 
 - <p class="text-larger" markdown>:material-microsoft:{ .lg .middle  } __RPA com Power Automate__</p>
 
