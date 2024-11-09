@@ -1,3 +1,9 @@
+---
+hide:
+  - feedback
+comments: true
+---
+
 # Curso Power Automate MeAdapt
 
 ## Qual o objetivo do curso

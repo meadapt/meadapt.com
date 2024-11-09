@@ -11,7 +11,9 @@ site_description: >-
 
 nav:
   - Home: index.md
-  - Vem conhecer: /#vem-conhecer
+  - Cursos:
+    - courses/index.md
+    - Power Automate: courses/power_automate.md
   - Blog: blog/index.md
 
 # Configuration
