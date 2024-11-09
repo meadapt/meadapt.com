@@ -1,4 +1,4 @@
-name: Publish documentation on GitHub pages
+name: Publish documentation version on GitHub pages
 
 on:
   pull_request:
@@ -30,7 +30,7 @@ jobs:
       - name: Install packages
         run: pip install -r requirements.txt
 
-      - name: Publish Documentation
+      - name: Publish documentation version on GitHub pages
         run: |
           mike deploy ${GITHUB_HEAD_REF}
           git push origin gh-pages
