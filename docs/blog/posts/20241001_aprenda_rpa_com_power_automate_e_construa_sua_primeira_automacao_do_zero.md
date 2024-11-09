@@ -294,6 +294,8 @@ Ao explorar ações, variáveis e estruturas como loops e condicionais, você es
 
 Com o Power Automate, você tem o poder de transformar processos manuais em automações inteligentes, começando hoje mesmo!
 
+--8<-- "../../partials/blog/curso_power_automate.md"
+
 --8<-- "partials/blog/encontrou_erro.md"
 
 [^1]: Não é nossa intenção aqui explicar todas as ações disponíveis, pois são muitas. Navegue nesta lista e tente, por conta própria, utilizar ações que te chamaram atenção, uma vez que suas configurações são, via de regra, bastante autoexplicativas.

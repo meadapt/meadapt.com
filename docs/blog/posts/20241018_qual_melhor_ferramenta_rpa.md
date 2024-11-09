@@ -128,6 +128,7 @@ Nós sabemos o pontencial que as ferramentas RPA têm de transformar as nossas r
 
 Não deixe de ver nossas [Dicas de como instalar a ferramenta de RPA Power Automate](../posts/20241016_dicas_de_como_instalar_a_ferramenta_de_rpa_power_automate.md) e comece hoje: [Aprenda RPA com Power Automate e construa sua primeira automação do zero](../posts/20241001_aprenda_rpa_com_power_automate_e_construa_sua_primeira_automacao_do_zero.md).
 
+--8<-- "../../partials/blog/curso_power_automate.md"
 
 --8<-- "partials/blog/encontrou_erro.md"
 

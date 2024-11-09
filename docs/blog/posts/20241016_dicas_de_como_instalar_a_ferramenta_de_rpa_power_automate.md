@@ -73,6 +73,8 @@ Com isso, você estará pronto para criar fluxos automatizados e otimizar suas r
 
 Agora, se além de instalar você também estava aflito para criar um fluxo profissional, completo e do zero, não deixe de conferir o post [Aprenda RPA com Power Automate e construa sua primeira automação do zero](../posts/20241001_aprenda_rpa_com_power_automate_e_construa_sua_primeira_automacao_do_zero.md)
 
+--8<-- "../../partials/blog/curso_power_automate.md"
+
 --8<-- "partials/blog/encontrou_erro.md"
 
 [^1]: Tome cuidado para não instalar a opção Legacy.
