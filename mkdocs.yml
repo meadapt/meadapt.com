@@ -121,7 +121,9 @@ plugins:
   - blog:
       post_url_format: "{slug}"
       archive: false
+      categories: true
       categories_toc: true
+      blog_toc: true
       post_excerpt: required
   - mkdocs-video:
       video_muted: True
