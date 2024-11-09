@@ -14,16 +14,19 @@ Se você está buscando pela melhor ferramenta de RPA para aprender ou para come
 
 **Não está convencido de aprender sobre ferramentas RPA?** [Veja 5 motivos para aprender ferramentas de automação (RPA) URGENTE!](../posts/20240914_5_motivos_para_aprender_automacao.md)
 
-
 <!-- more -->
 
 ## Como escolher
 
-Bom, comecemos respondendo a pergunta do título deste post - Qual a melhor ferramenta RPA? -, e a resposta é: depende! **A realidade é que não existe a melhor ferramenta, mas sim a mais adequada para você.**
+Bom, comecemos respondendo a pergunta do título deste post.
+Qual a melhor ferramenta RPA?
+A resposta é: depende! **A realidade é que não existe a melhor ferramenta, mas sim a mais adequada para você.**
 
-Atualmente, o mercado oferece diversas opções de serviços de automação de processos, cada um com as suas vantagens e desvantagens (para você). A escolha da ferramenta ideal depende das suas necessidades. Mas, não se preocupe, estamos aqui pra te ajudar a navegar nesse mundo e, no final deste post, deixamos a nossa recomendação! :wink:
+Atualmente, o mercado oferece diversas opções de serviços de automação de processos, cada um com as suas vantagens e desvantagens (para você).
+A escolha da ferramenta ideal depende das suas necessidades.
+Mas, não se preocupe, estamos aqui pra te ajudar a navegar nesse mundo e, no final deste post, deixamos a nossa recomendação! :wink:
 
-Para descobrir qual a melhor ferramenta RPA pra você, sugerimos que você, substitua a pergunta 'qual a melhor ferramenta RPA', pelas questões abaixo:
+Para descobrir qual a melhor ferramenta RPA pra você, sugerimos que você, substitua a pergunta "qual a melhor ferramenta RPA", pelas questões abaixo:
 
 - **O que eu preciso ou qual o problema eu quero resolver?**
 - **Qual a complexidade dos processos que desejo automatizar?**
@@ -111,7 +114,7 @@ Além disso, é sempre recomendável entrar em contato diretamente com os fornec
 
 ## Qual ferramenta recomendamos
 
-Você já deve ter percebido pelo nosso conteúdo que, aqui na [Me Adapt](/), nós somos fãs do Microsoft Power Automate. E, já adiantamos que não, não somos patrocinados pela Microsoft 365 (Ei, me nota Microsoft 365! :smiley:)!
+Você já deve ter percebido pelo nosso conteúdo que, aqui na [Me Adapt](../../index.md), nós somos fãs do Microsoft Power Automate. E, já adiantamos que não, não somos patrocinados pela Microsoft 365 (Ei, me nota Microsoft 365! :smiley:)!
 
 Brincadeiras à parte, o principal motivo de recomendarmos o Power Automate é simples: é a ferrenta que você, muito provavelmente, terá menores barreiras de uso, isto é, mais **facilidade em usar** e **acesso facilitado**.
 
@@ -123,9 +126,10 @@ Caso você não tenha o acesso coorporativo, por meio de uma conta básica de e-
 
 Nós sabemos o pontencial que as ferramentas RPA têm de transformar as nossas rotinas de trabalho e queremos você seja capaz de usufruir dessas vantagens também. Para isso, quanto menor as barreiras de acesso, maior é a sua chance de aprender e usar. Esperos que você se anime a começar essa jornada e voe! :rocket:
 
-Não deixe de ver nossas [Dicas de como instalar a ferramenta de RPA Power Automate](https://meadapt.com/blog/dicas-de-como-instalar-a-ferramenta-de-rpa-power-automate/) e comece hoje: [Aprenda RPA com Power Automate e construa sua primeira automação do zero](https://meadapt.com/blog/aprenda-rpa-com-power-automate-e-construa-sua-primeira-automa%C3%A7%C3%A3o-do-zero/).
+Não deixe de ver nossas [Dicas de como instalar a ferramenta de RPA Power Automate](../posts/20241016_dicas_de_como_instalar_a_ferramenta_de_rpa_power_automate.md) e comece hoje: [Aprenda RPA com Power Automate e construa sua primeira automação do zero](../posts/20241001_aprenda_rpa_com_power_automate_e_construa_sua_primeira_automacao_do_zero.md).
 
+--8<-- "../../partials/blog/curso_power_automate.md"
 
---8<-- "docs/overrides/partials/blog/encontrou_erro.md"
+--8<-- "partials/blog/encontrou_erro.md"
 
 [^1]: OPENAI. ChatGPT. Disponível em: https://www.openai.com/chatgpt. Acesso em: 18 out. 2024.

@@ -11,8 +11,9 @@ site_description: >-
 
 nav:
   - Home: index.md
-  - Vem conhecer: /#vem-conhecer
-  - Sobre Nós: /#sobre-nos
+  - Cursos:
+    - courses/index.md
+    - Curso Power Automate: courses/power_automate.md
   - Blog: blog/index.md
 
 # Configuration
@@ -24,7 +25,7 @@ theme:
     view: material/eye
   favicon: assets/favicon.svg
   language: pt
-  custom_dir: docs/overrides
+  custom_dir: overrides
   features:
     - content.code.annotate
     - content.code.copy
@@ -34,6 +35,7 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.tracking
+    - navigation.footer
     - search.highlight
     - search.share
     - search.suggest
@@ -120,7 +122,9 @@ plugins:
   - blog:
       post_url_format: "{slug}"
       archive: false
+      categories: true
       categories_toc: true
+      blog_toc: true
       post_excerpt: required
   - mkdocs-video:
       video_muted: True

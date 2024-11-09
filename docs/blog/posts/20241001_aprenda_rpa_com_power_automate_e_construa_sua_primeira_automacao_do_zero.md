@@ -9,7 +9,7 @@ categories:
 
 # Aprenda RPA com Power Automate e construa sua primeira automação do zero
 
-No post [5 motivos para aprender ferramentas de automação (RPA) URGENTE](./20240914_5_motivos_para_aprender_automacao.md){ target='_blank' } te mostrei a importância de aprender e utilizar ferramentas de RPA.
+No post [5 motivos para aprender ferramentas de automação (RPA) URGENTE](../posts/20240914_5_motivos_para_aprender_automacao.md) te mostrei a importância de aprender e utilizar ferramentas de RPA.
 Em resumo, ganhamos tempo (nosso recurso mais precioso), melhoramos a eficiência operacional e, em última análise, oferecemos serviços com maior qualidade.
 Agora é o momento de te mostrar, na prática, como o **Power Automate** pode acabar com suas operações repetitivas.
 
@@ -19,7 +19,7 @@ Te darei neste post meu kit de sobrevivência para iniciantes.
 Você sairá daqui com um fluxo que consulta de CEPs, pronto para uso.
 Tudo isso com a explicação dos conceitos básicos necessários, claro.
 
-Se você tiver alguma dúvida na instalação da ferramenta, não deixe de conferir nosso post [Dicas de como instalar a ferramenta de RPA Power Automate](../posts/20241007_dicas_de_como_instalar_a_ferramenta_de_rpa_power_automate.md).
+Se você tiver alguma dúvida na instalação da ferramenta, não deixe de conferir nosso post [Dicas de como instalar a ferramenta de RPA Power Automate](../posts/20241016_dicas_de_como_instalar_a_ferramenta_de_rpa_power_automate.md).
 
 ??? "Playlist Aprenda RPA com Power Automate[^4]"
 
@@ -77,7 +77,7 @@ A coluna `F` será responsável por armazenar o status geral de cada consulta.
 
 Daremos ênfase à:
 
-- Utilização de ações na construção dos fluxos RPA.
+- Utilização de ações na construção dos fluxos RPA[^1].
 - Criação e utilização de variáveis para armazenar dados essenciais ao longo da execução do fluxo.
 - Utilização de estruturas condicionais (If/Else) para lidar com diferentes resultados de consulta.
 - Criação de estruturas de repetição (Loop) para que a busca aconteça em todos os CEPs listados na planilha.
@@ -293,6 +293,10 @@ Penso que posso concluir dizendo que construir nosso primeiro fluxo RPA com o Po
 Ao explorar ações, variáveis e estruturas como loops e condicionais, você estará preparado para aplicar RPA em diferentes cenários do seu dia a dia profissional, economizando tempo e elevando a qualidade do trabalho.
 
 Com o Power Automate, você tem o poder de transformar processos manuais em automações inteligentes, começando hoje mesmo!
+
+--8<-- "../../partials/blog/curso_power_automate.md"
+
+--8<-- "partials/blog/encontrou_erro.md"
 
 [^1]: Não é nossa intenção aqui explicar todas as ações disponíveis, pois são muitas. Navegue nesta lista e tente, por conta própria, utilizar ações que te chamaram atenção, uma vez que suas configurações são, via de regra, bastante autoexplicativas.
 [^2]: Instâncias no Power Automate são aplicativos abertos pelo fluxo, como um navegador ou uma planilha de Excel. Elas permitem que o Power Automate interaja diretamente com esses aplicativos, como se você estivesse clicando ou digitando neles.
