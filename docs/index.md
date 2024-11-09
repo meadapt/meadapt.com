@@ -61,7 +61,7 @@ hide:
 
     Faça o nosso curso e inicie uma nova trajetória!
 
-    [:octicons-arrow-right-24: Não perca tempo](blog/posts/20240914_5_motivos_para_aprender_automacao.md)
+    [:octicons-arrow-right-24: Não perca tempo](courses/power_automate.md)
 
 </div>
 
