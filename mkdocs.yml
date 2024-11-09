@@ -24,7 +24,7 @@ theme:
     view: material/eye
   favicon: assets/favicon.svg
   language: pt
-  custom_dir: docs/overrides
+  custom_dir: overrides
   features:
     - content.code.annotate
     - content.code.copy

@@ -159,7 +159,7 @@ Pesquise como incluir arquivos, como abrir Issues, como convidar colegas para pa
 
 Boa jornada!
 
---8<-- "docs/overrides/partials/blog/encontrou_erro.md"
+--8<-- "partials/blog/encontrou_erro.md"
 
 [^1]: Breve resumo do artigo [Psychological safety and norm clarity in software engineering teams](https://dl.acm.org/doi/10.1145/3195836.3195847?utm_source=substack&utm_medium=email). Tanto o artigo quanto o resumo citados analisam eficiência em equipes de engenharia de software, mas acredito que eles podem ser utilizados para equipes de uma maneira em geral.
 

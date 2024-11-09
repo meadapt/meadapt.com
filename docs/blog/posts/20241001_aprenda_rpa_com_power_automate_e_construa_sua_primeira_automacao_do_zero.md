@@ -294,6 +294,8 @@ Ao explorar ações, variáveis e estruturas como loops e condicionais, você es
 
 Com o Power Automate, você tem o poder de transformar processos manuais em automações inteligentes, começando hoje mesmo!
 
+--8<-- "partials/blog/encontrou_erro.md"
+
 [^1]: Não é nossa intenção aqui explicar todas as ações disponíveis, pois são muitas. Navegue nesta lista e tente, por conta própria, utilizar ações que te chamaram atenção, uma vez que suas configurações são, via de regra, bastante autoexplicativas.
 [^2]: Instâncias no Power Automate são aplicativos abertos pelo fluxo, como um navegador ou uma planilha de Excel. Elas permitem que o Power Automate interaja diretamente com esses aplicativos, como se você estivesse clicando ou digitando neles.
 [^3]: Não utilize espaços e ou caracteres especiais como acentos, cedilha e til, para renomear as variáveis de fluxo. Sugerimos a utilização de letras minúsculas, separadas por underscore (`_`) como em `resultado_pesquisa`.
