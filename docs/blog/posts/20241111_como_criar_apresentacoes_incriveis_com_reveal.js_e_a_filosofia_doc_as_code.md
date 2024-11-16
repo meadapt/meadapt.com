@@ -11,7 +11,7 @@ categories:
 
 # Como criar apresentações incríveis com reveal.js e a filosofia Doc as Code
 
-Você já se pegou em uma situação onde precisava criar uma apresentação incrível para compartilhar informações, mas a ferramenta tradicional não te dava a flexibilidade e os recursos que você precisava? Ou talvez você tenha sentido que sua documentação ou slides estavam sempre desatualizados ou difíceis de modificar depois de criados? Se isso soa familiar, a boa notícia é que existe uma maneira de melhorar esse processo e criar apresentações mais dinâmicas, colaborativas e sempre atualizadas. Vem com a gente!
+Você já se pegou em uma situação na qual precisava criar uma apresentação incrível para compartilhar informações, mas a ferramenta tradicional não te dava a flexibilidade e os recursos que você precisava? Ou talvez você tenha sentido que sua documentação ou slides estavam sempre desatualizados ou difíceis de modificar depois de criados? Se isso soa familiar, a boa notícia é que existe uma maneira de melhorar esse processo e criar apresentações mais dinâmicas, colaborativas e sempre atualizadas. Vem com a gente!
 
 <!-- more -->
 
