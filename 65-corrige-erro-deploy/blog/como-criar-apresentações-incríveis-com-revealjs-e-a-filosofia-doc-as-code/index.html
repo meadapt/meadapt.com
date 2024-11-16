@@ -1,0 +1,975 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Aprenda RPA com Power Automate de forma simples e descomplicada. A MeAdapt te ajuda a dominar novas tecnologias com cursos práticos e acessíveis. Tudo pensado para que você supere qualquer desafio tecnológico.">
+      
+      
+      
+      
+        <link rel="prev" href="../qual-a-melhor-ferramenta-de-automa%C3%A7%C3%A3o-rob%C3%B3tica-de-processos-rpa/">
+      
+      
+      
+      <link rel="icon" href="../../assets/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.44">
+    
+    
+      
+        <title>Como criar apresentações incríveis com reveal.js e a filosofia Doc as Code - meadapt.com</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Plus Jakarta Sans";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/style.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-0QEE78N4QK"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-0QEE78N4QK",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-0QEE78N4QK",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="dark-blue" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#como-criar-apresentacoes-incriveis-com-revealjs-e-a-filosofia-doc-as-code" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="meadapt.com" class="md-header__button md-logo" aria-label="meadapt.com" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 13H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25v-8.5C0 1.784.784 1 1.75 1M1.5 2.75v8.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.75.75 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25m5.28 1.72a.75.75 0 0 1 0 1.06L5.31 7l1.47 1.47a.75.75 0 0 1-.018 1.042.75.75 0 0 1-1.042.018l-2-2a.75.75 0 0 1 0-1.06l2-2a.75.75 0 0 1 1.06 0m2.44 0a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.75.75 0 0 1-1.042-.018.75.75 0 0 1-.018-1.042L10.69 7 9.22 5.53a.75.75 0 0 1 0-1.06"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            meadapt.com
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Como criar apresentações incríveis com reveal.js e a filosofia Doc as Code
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="dark-blue" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Compartilhar" aria-label="Compartilhar" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/meadapt/meadapt.com" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    meadapt/meadapt.com
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../courses/" class="md-tabs__link">
+          
+  
+    
+  
+  Cursos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="../" class="md-tabs__link">
+        
+  
+    
+  
+  Blog
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="meadapt.com" class="md-nav__button md-logo" aria-label="meadapt.com" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 13H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25v-8.5C0 1.784.784 1 1.75 1M1.5 2.75v8.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.75.75 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25m5.28 1.72a.75.75 0 0 1 0 1.06L5.31 7l1.47 1.47a.75.75 0 0 1-.018 1.042.75.75 0 0 1-1.042.018l-2-2a.75.75 0 0 1 0-1.06l2-2a.75.75 0 0 1 1.06 0m2.44 0a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.75.75 0 0 1-1.042-.018.75.75 0 0 1-.018-1.042L10.69 7 9.22 5.53a.75.75 0 0 1 0-1.06"/></svg>
+
+    </a>
+    meadapt.com
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/meadapt/meadapt.com" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    meadapt/meadapt.com
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../courses/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Cursos
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Cursos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../courses/power_automate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Curso Power Automate
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-o-que-e-a-filosofia-doc-as-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. O que é a filosofia "Doc as Code"?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-o-que-e-o-revealjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. O que é o Reveal.js?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-como-o-revealjs-se-relaciona-com-o-doc-as-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Como o Reveal.js se relaciona com o "Doc as Code"?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-o-que-voce-vai-aprender-com-a-nossa-serie-de-videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. O que você vai aprender com a nossa série de vídeos?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#por-que-voce-deve-acompanhar-esta-serie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Por que você deve acompanhar esta série?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+  <div class="md-content md-content--post" data-md-component="content">
+    <div class="md-sidebar md-sidebar--post" data-md-component="sidebar" data-md-type="navigation">
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner md-post">
+          <nav class="md-nav md-nav--primary">
+            <div class="md-post__back">
+              <div class="md-nav__title md-nav__container">
+                <a href="../" class="md-nav__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+                  <span class="md-ellipsis">
+                    Voltar ao índice
+                  </span>
+                </a>
+              </div>
+            </div>
+            
+              <div class="md-post__authors md-typeset">
+                
+                  <div class="md-profile md-post__profile">
+                    <span class="md-author md-author--long">
+                      <img src="https://avatars.githubusercontent.com/u/166438302?v=4" alt="Raiane Cardoso de Souza">
+                    </span>
+                    <span class="md-profile__description">
+                      <strong>
+                        
+                          Raiane Cardoso de Souza
+                        
+                      </strong>
+                      <br>
+                      Creator
+                    </span>
+                  </div>
+                
+              </div>
+            
+            <ul class="md-post__meta md-nav__list">
+              <li class="md-nav__item md-nav__item--section">
+                <div class="md-post__title">
+                  <span class="md-ellipsis">
+                    Metadados
+                  </span>
+                </div>
+                <nav class="md-nav">
+                  <ul class="md-nav__list">
+                    <li class="md-nav__item">
+                      <div class="md-nav__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
+                        <time datetime="2024-11-11 00:00:00" class="md-ellipsis">11 de novembro de 2024</time>
+                      </div>
+                    </li>
+                    
+                    
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 3v15h3V3zm3 2 4 13 3-1-4-13zM5 5v13h3V5zM3 19v2h18v-2z"/></svg>
+                          <span class="md-ellipsis">
+                            em
+                            
+                              <a href="../category/doc-as-code/">Doc as Code</a>, 
+                              <a href="../category/github/">GitHub</a>, 
+                              <a href="../category/meadapt/">MeAdapt</a></span>
+                        </div>
+                      </li>
+                    
+                    
+                      
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
+                          <span class="md-ellipsis">
+                            
+                              6 min de leitura
+                            
+                          </span>
+                        </div>
+                      </li>
+                    
+                  </ul>
+                </nav>
+              </li>
+            </ul>
+          </nav>
+          
+        </div>
+      </div>
+    </div>
+    <article class="md-content__inner md-typeset">
+      
+        
+
+  
+    <a href="https://github.com/meadapt/meadapt.com/edit/main/docs/blog/posts/20241111_como_criar_apresentacoes_incriveis_com_reveal.js_e_a_filosofia_doc_as_code.md" title="Editar esta página" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/meadapt/meadapt.com/raw/main/docs/blog/posts/20241111_como_criar_apresentacoes_incriveis_com_reveal.js_e_a_filosofia_doc_as_code.md" title="Ver fonte desta página" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg>
+    </a>
+  
+
+
+<div><h1 id="como-criar-apresentacoes-incriveis-com-revealjs-e-a-filosofia-doc-as-code">Como criar apresentações incríveis com reveal.js e a filosofia Doc as Code<a class="headerlink" href="#como-criar-apresentacoes-incriveis-com-revealjs-e-a-filosofia-doc-as-code" title="Permanent link">⚓︎</a></h1>
+<p>Você já se pegou em uma situação na qual precisava criar uma apresentação incrível para compartilhar informações, mas a ferramenta tradicional não te dava a flexibilidade e os recursos que você precisava? Ou talvez você tenha sentido que sua documentação ou slides estavam sempre desatualizados ou difíceis de modificar depois de criados? Se isso soa familiar, a boa notícia é que existe uma maneira de melhorar esse processo e criar apresentações mais dinâmicas, colaborativas e sempre atualizadas. Vem com a gente!</p>
+<!-- more -->
+
+<p>Estamos empolgados em anunciar o lançamento de uma nova série de vídeos, feitos especialmente para você, que busca <strong>uma forma mais eficiente de criar apresentações e organizar sua documentação</strong>. Vamos explorar o uso de reveal.js, uma ferramenta poderosa para criar apresentações interativas e modernas, e "Doc as Code", uma filosofia que vai <strong>transformar a maneira como você gerencia conteúdo e documentação</strong>.</p>
+<p>Mas, calma, se esses termos ainda não fazem muito sentido para você, não se preocupe! Ao longo dos vídeos e nesse post, vamos explicar tudo passo a passo, de uma maneira simples e acessível, sem precisar de conhecimentos técnicos avançados.</p>
+<details>
+<summary>Doc as code: Crie Apresentações Incríveis com reveal.js!<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></summary>
+<details>
+<summary>Parte 1</summary>
+<p><strong>Vídeo disponível no YouTube a partir do dia 13/11/2024.</strong></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/zPJemen0Uaw?si=8SjF1TAfoPNiqQU7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+</details>
+<details>
+<summary>Parte 2</summary>
+<p><strong>Vídeo disponível no YouTube a partir do dia 20/11/2024.</strong></p>
+</details>
+<details>
+<summary>Parte 3</summary>
+<p><strong>Vídeo disponível no YouTube a partir do dia 27/11/2024</strong></p>
+</details>
+<details>
+<summary>Parte 4</summary>
+<p><strong>Vídeo disponível no YouTube a partir do dia 04/12/2024</strong></p>
+</details>
+</details>
+<h3 id="1-o-que-e-a-filosofia-doc-as-code">1. O que é a filosofia "Doc as Code"?<a class="headerlink" href="#1-o-que-e-a-filosofia-doc-as-code" title="Permanent link">⚓︎</a></h3>
+<p>Você já deve ter percebido que, muitas vezes, a documentação e o material de apoio de um projeto ou ideia acabam ficando desatualizados ou fora de lugar. Isso acontece porque, geralmente, eles são criados separadamente do projeto e podem ser difíceis de atualizar e manter.</p>
+<p>A filosofia <strong>"Doc as Code"</strong> (que podemos traduzir como "documentação como código") muda essa forma de pensar. Em vez de tratar a documentação como algo separado ou algo "pronto" que não muda mais, ela passa a ser uma parte constante do processo de criação. Isso significa que:</p>
+<ul>
+<li><strong>Sempre atualizada</strong>: A documentação e as apresentações estão sempre sincronizadas com o trabalho que está sendo feito, o que garante que elas não fiquem desatualizadas.</li>
+<li><strong>Mais fácil de modificar</strong>: Quando você faz mudanças, pode atualizar facilmente os slides ou qualquer documento, sem perder tempo.</li>
+<li><strong>Trabalho em equipe</strong>: Vários membros de uma equipe podem colaborar, revisar e melhorar a documentação, da mesma forma que trabalham em um projeto comum.</li>
+</ul>
+<p><strong>Por que isso é importante?</strong>  </p>
+<p>Quando você tem documentos ou apresentações que são gerenciados de forma contínua e colaborativa, as informações são mais claras e mais fáceis de acessar, sempre que necessário. Além disso, o processo de criação e atualização se torna muito mais rápido e sem complicações. Agilidade é a palavra chave aqui!</p>
+<h3 id="2-o-que-e-o-revealjs">2. O que é o Reveal.js?<a class="headerlink" href="#2-o-que-e-o-revealjs" title="Permanent link">⚓︎</a></h3>
+<p>Agora que falamos sobre a filosofia "Doc as Code", vamos apresentar o <strong>reveal.js</strong>, a ferramenta que vai te ajudar a criar apresentações muito mais interessantes, com visual moderno e recursos interativos.</p>
+<p><strong>Reveal.js</strong> é uma ferramenta online que permite criar apresentações de slides incríveis, mas com uma grande diferença: em vez de usar programas tradicionais de slides (como PowerPoint ou Google Slides), você cria tudo com uma tecnologia chamada <strong>HTML</strong>. Não se preocupe, isso não significa que você precisa ser um programador! Nós vamos te guiar em todo o processo.</p>
+<p>Aqui estão algumas vantagens do <strong>reveal.js</strong>:</p>
+<ul>
+<li><strong>Apresentações interativas</strong>: Você pode criar slides com animações, efeitos visuais e até interações com o público, como quizzes ou perguntas.</li>
+<li><strong>Facilidade de uso</strong>: Apesar de usar HTML, você pode criar apresentações com uma linguagem simples chamada <strong>Markdown</strong>, que é fácil de aprender.</li>
+<li><strong>Responsividade</strong>: Suas apresentações podem ser visualizadas em qualquer dispositivo (computador, tablet ou celular), o que facilita compartilhar com diferentes públicos.</li>
+<li><strong>Customização</strong>: Se você gosta de personalizar os seus slides, o <strong>reveal.js</strong> oferece várias opções para ajustar o visual das apresentações, deixando-as com a sua cara.</li>
+</ul>
+<details class="tip">
+<summary>Se liga</summary>
+<p>O melhor de tudo é que, por ser uma ferramenta baseada na web, você pode hospedar sua apresentação em qualquer lugar, como por exemplo, em sites gratuitos como o <strong>GitHub Pages</strong>, e compartilhá-la facilmente com outras pessoas. </p>
+<p>E, você já sabe, né?! De graça, até injeção... <img alt="😃" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f603.svg" title=":smiley:"></p>
+</details>
+<h3 id="3-como-o-revealjs-se-relaciona-com-o-doc-as-code">3. Como o Reveal.js se relaciona com o "Doc as Code"?<a class="headerlink" href="#3-como-o-revealjs-se-relaciona-com-o-doc-as-code" title="Permanent link">⚓︎</a></h3>
+<p>Agora você deve estar se perguntando: <em>"Ok, entendi o que são o Reveal.js e a filosofia Doc as Code, mas como tudo isso funciona junto?"</em></p>
+<p>A resposta é simples: <strong>o Reveal.js é a ferramenta que vai te ajudar a criar apresentações incríveis, enquanto a filosofia "Doc as Code" garante que essas apresentações sejam sempre atualizadas e acessíveis, de forma colaborativa e fácil de modificar.</strong></p>
+<p>Pense da seguinte maneira: em vez de criar seus slides em um programa de apresentação tradicional, onde você pode ter dificuldade em manter os slides atualizados, você vai usar o <strong>reveal.js</strong> para criar uma apresentação online, que estará sempre sincronizada com os outros documentos e com o progresso do seu projeto. E o melhor: você poderá sempre melhorar e atualizar os slides facilmente, sem perder tempo.</p>
+<p>Com essa abordagem, você cria apresentações mais interessantes e profissionais, enquanto se adapta à práticas mais modernas de organização e colaboração, permitindo que todos da sua equipe ou até seu público possam interagir com os slides e colaborar para melhorá-los.</p>
+<h3 id="4-o-que-voce-vai-aprender-com-a-nossa-serie-de-videos">4. O que você vai aprender com a nossa série de vídeos?<a class="headerlink" href="#4-o-que-voce-vai-aprender-com-a-nossa-serie-de-videos" title="Permanent link">⚓︎</a></h3>
+<p>Agora que você já tem uma ideia de como tudo funciona, vamos explicar o que você vai aprender nos vídeos da nossa série. O objetivo é tornar o processo de criação e gerenciamento de apresentações mais eficiente e colaborativo, e vamos ensinar isso passo a passo.</p>
+<ul>
+<li>
+<p><strong>Introdução ao "Doc as Code"</strong>: Vamos apresentar o conceito de <strong>"Doc as Code"</strong>. Explicaremos de forma simples como a documentação, ao ser tratada como código, se torna mais fácil de gerenciar, atualizar e colaborar.</p>
+</li>
+<li>
+<p><strong>Usando o terminal e Criando um repositório no GitHub</strong>: Vamos te mostrar como configurar seu próprio repositório para armazenar suas apresentações, usando alguns comandos no terminal. </p>
+<details>
+<summary><strong>GitHub?</strong></summary>
+<ul>
+<li>
+<p>Se você não conhece e nunca usou o <strong>GitHub</strong> (uma plataforma online para armazenar e compartilhar seus arquivos) confira: <a href="../pare-tudo-que-esta-fazendo-e-vem-conhecer-o-github/">Pare tudo que esta fazendo e vem conhecer o GitHub</a></p>
+</li>
+<li>
+<p>Se você quer que te ensinemos a fazer uma conta no GitHub e exploremos mais a ferramenta, deixe uma mensagem para a gente no final deste post ou nos comentários do vídeos!  </p>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<p><strong>Introdução ao Markdown para Criar Apresentações</strong>: Vamos explorar o <strong>Markdown</strong>, uma linguagem simples usada para criar os slides no <strong>reveal.js</strong>. Você verá como é fácil criar textos, imagens e links para suas apresentações sem complicação.</p>
+</li>
+<li>
+<p><strong>Configurando o Reveal.js</strong>: vamos te guiar no configuração, ou setup, do <strong>reveal.js</strong> e mostrar como criar os primeiros slides de sua apresentação. </p>
+</li>
+</ul>
+<!-- Salvo engano, o vídeo 4 termina sem que mostremos o item abaixo, certo?
+- **Publicando sua Apresentação na Web**: vamos te mostrar como publicar sua apresentação na web, para que você possa compartilhá-la facilmente com outras pessoas. Usaremos o **GitHub Pages**, uma ferramenta gratuita que permite hospedar sites estáticos sem custo algum.
+Vamos também te ensinar como personalizar sua apresentação, ajustando cores, fontes e outros detalhes. -->
+
+<h3 id="por-que-voce-deve-acompanhar-esta-serie">Por que você deve acompanhar esta série?<a class="headerlink" href="#por-que-voce-deve-acompanhar-esta-serie" title="Permanent link">⚓︎</a></h3>
+<p>Se você já usou ferramentas tradicionais de criação de slides, sabe que pode ser difícil manter tudo atualizado e integrado a outros documentos.</p>
+<p>Essa série de vídeos vai transformar a maneira como você cria e compartilha apresentações. Usando <strong>reveal.js</strong> e a filosofia <strong>Doc as Code</strong>, você vai aprender a criar apresentações interativas, dinâmicas e colaborativas, de forma simples e eficiente. Se você busca uma maneira de tornar suas apresentações mais interessantes e organizadas, essa é a oportunidade ideal para começar.</p>
+<p><strong>Fique ligado, acompanhe nossa série e comece a criar apresentações incríveis o quanto antes!</strong></p>
+<details class="note">
+<summary>Fale conosco!</summary>
+<p>Nos esforçamos muito para garantir que todo o conteúdo deste post seja preciso e esteja livre de erros.
+No entanto, sabemos que eles podem acontecer, afinal, somos humanos!!!
+Se você encontrou algum, tem dúvidas e/ou sugestões, por favor, não hesite em entrar em contato no espaço abaixo reservado para comentários.</p>
+<p>Caso prefira, manda um e-mail para <a href="mailto:faleconosco@meadapt.com">faleconosco@meadapt.com</a>.</p>
+<p><strong>Falar com você será um grande prazer</strong>.</p>
+</details>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Previsão para disponibilização de todos os vídeos é 04/12/2024. Os vídeos serão publicados semanalmente, às quartas-feiras, a partir de 13/11/2024, à meia noite. <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+</ol>
+</div></div>
+
+
+
+
+
+
+
+  
+    
+  
+  
+    
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Última atualização">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">16 de novembro de 2024 17:32:07</span>
+  </span>
+
+    
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Criada">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">11 de novembro de 2024 23:28:03</span>
+  </span>
+
+    
+    
+    
+  </aside>
+
+
+  
+
+
+  
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Gostou desta página?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="Gostei" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 9v12H1V9zm4 12a2 2 0 0 1-2-2V9c0-.55.22-1.05.59-1.41L14.17 1l1.06 1.06c.27.27.44.64.44 1.05l-.03.32L14.69 8H21a2 2 0 0 1 2 2v2c0 .26-.05.5-.14.73l-3.02 7.05C19.54 20.5 18.83 21 18 21zm0-2h9.03L21 12v-2h-8.79l1.13-5.32L9 9.03z"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="Não gostei" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 15V3h4v12zM15 3a2 2 0 0 1 2 2v10c0 .55-.22 1.05-.59 1.41L9.83 23l-1.06-1.06c-.27-.27-.44-.64-.44-1.06l.03-.31.95-4.57H3a2 2 0 0 1-2-2v-2c0-.26.05-.5.14-.73l3.02-7.05C4.46 3.5 5.17 3 6 3zm0 2H5.97L3 12v2h8.78l-1.13 5.32L15 14.97z"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              Obrigado por compartilhar!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              Obrigado por compartilhar! Adoraria escutar um pouquinho mais sua opinião. Se estiver a vontade quanto a isso peço que nos envio no email suporte@meadapt.com!
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+  <h2 id="__comments">Comentários</h2>
+  <script src="https://giscus.app/client.js"
+    data-repo="meadapt/meadapt.com"
+    data-repo-id="R_kgDOMscewg"
+    data-category="Q&A"
+    data-category-id="DIC_kwDOMscews4CiXZX"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="0"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="pt"
+    crossorigin="anonymous"
+    async>
+</script>
+
+  <!-- Synchronize Giscus theme with palette -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    /* Set palette on initial load */
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate" ? "dark" : "light"
+      giscus.setAttribute("data-theme", theme)
+    }
+
+    /* Register event handlers after documented loaded */
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate" ? "dark" : "light"
+
+          /* Instruct Giscus to change theme */
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
+
+      
+    </article>
+  </div>
+
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+        
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../qual-a-melhor-ferramenta-de-automa%C3%A7%C3%A3o-rob%C3%B3tica-de-processos-rpa/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Qual a melhor ferramenta de Automação Robótica de Processos (RPA)?">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Qual a melhor ferramenta de Automação Robótica de Processos (RPA)?
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://www.youtube.com/channel/UCoMuk7Pk3VzUYQtuqa6fLTw" target="_blank" rel="noopener" title="My YouTube Channel." class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305m-317.51 213.508V175.185l142.739 81.205z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="http://github.com/meadapt" target="_blank" rel="noopener" title="My GitHub Account." class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.annotate", "content.code.copy", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "navigation.footer", "search.highlight", "search.share", "search.suggest", "toc.follow", "content.action.edit", "content.action.view"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../assets/style.js"></script>
+      
+    
+  </body>
+</html>
