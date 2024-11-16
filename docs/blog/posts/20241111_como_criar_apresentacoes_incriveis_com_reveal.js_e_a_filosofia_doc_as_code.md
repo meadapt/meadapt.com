@@ -23,27 +23,22 @@ Mas, calma, se esses termos ainda não fazem muito sentido para você, não se p
 
     ??? "Parte 1"
 
-        **Vídeo disponivel no YouTube a partir do dia 13/11/2024.**
+        **Vídeo disponível no YouTube a partir do dia 13/11/2024.**
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/zPJemen0Uaw?si=8SjF1TAfoPNiqQU7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     ??? "Parte 2"
 
-        **Vídeo disponivel no YouTube a partir do dia 20/11/2024.**
+        **Vídeo disponível no YouTube a partir do dia 20/11/2024.**
 
-        <!-- ![type:video](https://youtu.be/g9kjcYlReQg) -->
 
     ??? "Parte 3"
 
-        **Vídeo disponivel no YouTube a partir do dia 27/11/2024**
-
-        <!-- ![type:video](https://youtu.be/Y2KtgaNMy6U) -->
+        **Vídeo disponível no YouTube a partir do dia 27/11/2024**
 
     ??? "Parte 4"
 
-        **Vídeo disponivel no YouTube a partir do dia 04/12/2024.**
-
-        <!-- ![type:video](https://youtu.be/HTxZ-PFMcS4) -->
+        **Vídeo disponível no YouTube a partir do dia 04/12/2024**
 
 
 ### 1. O que é a filosofia "Doc as Code"?
