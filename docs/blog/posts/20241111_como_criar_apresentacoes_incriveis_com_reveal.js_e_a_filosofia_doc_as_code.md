@@ -15,7 +15,7 @@ Você já se pegou em uma situação onde precisava criar uma apresentação inc
 
 <!-- more -->
 
-Estamos empolgados em anunciar o lançamento de uma nova série de vídeos, feitos especialmente para você, que busca uma forma mais eficiente de criar apresentações e organizar sua documentação. Vamos explorar o uso de reveal.js, uma ferramenta poderosa para criar apresentações interativas e modernas, e "Doc as Code", uma filosofia que vai transformar a maneira como você gerencia conteúdo e documentação.
+Estamos empolgados em anunciar o lançamento de uma nova série de vídeos, feitos especialmente para você, que busca **uma forma mais eficiente de criar apresentações e organizar sua documentação**. Vamos explorar o uso de reveal.js, uma ferramenta poderosa para criar apresentações interativas e modernas, e "Doc as Code", uma filosofia que vai **transformar a maneira como você gerencia conteúdo e documentação**.
 
 Mas, calma, se esses termos ainda não fazem muito sentido para você, não se preocupe! Ao longo dos vídeos e nesse post, vamos explicar tudo passo a passo, de uma maneira simples e acessível, sem precisar de conhecimentos técnicos avançados.
 
@@ -25,25 +25,25 @@ Mas, calma, se esses termos ainda não fazem muito sentido para você, não se p
 
         **Vídeo disponivel no YouTube a partir do dia 13/11/2024.**
 
-        ![type:video](https://youtu.be/zPJemen0Uaw)
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zPJemen0Uaw?si=8SjF1TAfoPNiqQU7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     ??? "Parte 2"
 
         **Vídeo disponivel no YouTube a partir do dia 20/11/2024.**
 
-        ![type:video](https://youtu.be/g9kjcYlReQg)
+        <!-- ![type:video](https://youtu.be/g9kjcYlReQg) -->
 
     ??? "Parte 3"
 
         **Vídeo disponivel no YouTube a partir do dia 27/11/2024**
 
-        ![type:video](https://youtu.be/Y2KtgaNMy6U)
+        <!-- ![type:video](https://youtu.be/Y2KtgaNMy6U) -->
 
     ??? "Parte 4"
 
         **Vídeo disponivel no YouTube a partir do dia 04/12/2024.**
 
-        ![type:video](https://youtu.be/HTxZ-PFMcS4)
+        <!-- ![type:video](https://youtu.be/HTxZ-PFMcS4) -->
 
 
 ### 1. O que é a filosofia "Doc as Code"?
@@ -73,11 +73,9 @@ Aqui estão algumas vantagens do **reveal.js**:
 - **Responsividade**: Suas apresentações podem ser visualizadas em qualquer dispositivo (computador, tablet ou celular), o que facilita compartilhar com diferentes públicos.
 - **Customização**: Se você gosta de personalizar os seus slides, o **reveal.js** oferece várias opções para ajustar o visual das apresentações, deixando-as com a sua cara.
 
-O melhor de tudo é que, por ser uma ferramenta baseada na web, você pode hospedar sua apresentação em qualquer lugar, como por exemplo, em sites gratuitos como o **GitHub Pages**, e compartilhá-la facilmente com outras pessoas.
-
 ??? Tip "Se liga"
 
-    Na verdade, na minha opinião, a melhor parte é que é tudo graça! 
+    O melhor de tudo é que, por ser uma ferramenta baseada na web, você pode hospedar sua apresentação em qualquer lugar, como por exemplo, em sites gratuitos como o **GitHub Pages**, e compartilhá-la facilmente com outras pessoas. 
     
     E, você já sabe, né?! De graça, até injeção... :smiley:
 
@@ -107,7 +105,7 @@ Agora que você já tem uma ideia de como tudo funciona, vamos explicar o que vo
 
 - **Introdução ao Markdown para Criar Apresentações**: Vamos explorar o **Markdown**, uma linguagem simples usada para criar os slides no **reveal.js**. Você verá como é fácil criar textos, imagens e links para suas apresentações sem complicação.
 
-- **Configurando o Reveal.js**: vamos te guiar no configuraçã, ou setup, do **reveal.js** e mostrar como criar os primeiros slides de sua apresentação. 
+- **Configurando o Reveal.js**: vamos te guiar no configuração, ou setup, do **reveal.js** e mostrar como criar os primeiros slides de sua apresentação. 
 
 <!-- Salvo engano, o vídeo 4 termina sem que mostremos o item abaixo, certo?
 - **Publicando sua Apresentação na Web**: vamos te mostrar como publicar sua apresentação na web, para que você possa compartilhá-la facilmente com outras pessoas. Usaremos o **GitHub Pages**, uma ferramenta gratuita que permite hospedar sites estáticos sem custo algum.
