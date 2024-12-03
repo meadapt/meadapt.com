@@ -30,11 +30,15 @@ Mas, calma, se esses termos ainda não fazem muito sentido para você, não se p
     ??? "Parte 2"
 
         **Vídeo disponível no YouTube a partir do dia 20/11/2024.**
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/g9kjcYlReQg?si=BwVHSFpjkTVCCFxP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
     ??? "Parte 3"
 
         **Vídeo disponível no YouTube a partir do dia 27/11/2024**
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y2KtgaNMy6U?si=GvP1-GFuAhp1LRMv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     ??? "Parte 4"
 
