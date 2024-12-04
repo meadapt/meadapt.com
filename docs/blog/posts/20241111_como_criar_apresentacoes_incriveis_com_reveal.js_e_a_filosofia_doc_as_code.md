@@ -24,25 +24,29 @@ Mas, calma, se esses termos ainda não fazem muito sentido para você, não se p
     ??? "Parte 1"
 
         **Vídeo disponível no YouTube a partir do dia 13/11/2024.**
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/zPJemen0Uaw?si=8SjF1TAfoPNiqQU7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        ![type:video](https://www.youtube.com/embed/zPJemen0Uaw)
+ 
 
     ??? "Parte 2"
 
         **Vídeo disponível no YouTube a partir do dia 20/11/2024.**
-        
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/g9kjcYlReQg?si=BwVHSFpjkTVCCFxP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+        ![type:video](https://www.youtube.com/embed/g9kjcYlReQg)      
+        
 
     ??? "Parte 3"
 
         **Vídeo disponível no YouTube a partir do dia 27/11/2024**
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y2KtgaNMy6U?si=GvP1-GFuAhp1LRMv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        ![type:video](https://www.youtube.com/embed/Y2KtgaNMy6U)  
 
+        
     ??? "Parte 4"
 
         **Vídeo disponível no YouTube a partir do dia 04/12/2024**
+
+        ![type:video](https://www.youtube.com/embed/HTxZ-PFMcS4)
 
 
 ### 1. O que é a filosofia "Doc as Code"?
