@@ -10,7 +10,7 @@ categories:
 
 # Como usei o GitHub para automatizar uma tarefa simples, mas chata
 
-Hoje me deparei com um problema bem interessante no trabalho.
+Hoje, me deparei com um problema bem interessante no trabalho.
 Sabe aquela típica tarefa que você faz todos os meses sem nem pensar muito?
 Pois é...
 **Por que eu não me tinha me livrado disso antes?**
@@ -22,7 +22,7 @@ E olha, até pouco tempo atrás a gente até podia se enganar com aquela velha d
 
 > _“Ah, isso aqui é tão rápido de fazer manual... deixa pra lá.”_
 
-Mas se a pensarmos assim pra tudo, vai ficar sempre atolado na rotina e nunca vai sobrar tempo pra melhorias, nem pra fazer coisas mais importantes e inteligentes.
+Mas se a pensarmos assim pra tudo, a gente vai ficar sempre atolado na rotina e nunca vai sobrar tempo pra melhorias, nem pra fazer coisas mais importantes e inteligentes.
 Além idsso, hoje, com a ajuda da inteligência artificial, as soluções ficaram cada vez mais rápidas de serem construídas.
 
 Pois bem.
@@ -47,14 +47,14 @@ O que eu precisava aqui era de uma forma de **automatizar o envio desse arquivo 
 ## O cenário era esse:
 
 - Meu colega de trabalho me enviava o arquivo (às vezes por e-mail, outras vezes por Teams ou por uma pasta no Google Drive).
-- Depois eu acessava um servidor (outro computador) e colocava esse arquivo numa pasta específica.
+- Depois, eu acessava um servidor (outro computador) e colocava esse arquivo numa pasta específica.
 
 Pra quê?
 Pra que o painel do QlikView (ou qualquer outra aplicação ou pessoa) pudesse usar a versão mais atualizada daquele arquivo.
 
 ## A ideia da automação foi:
 
-- Criar um repositório no **GitHub** onde os arquivos podem ser armazenados.
+- Criar um repositório no **GitHub** no qual os arquivos podem ser armazenados.
 - Sempre que houver atualização, meu colega salva o arquivo novo no repositório (em vez de me enviar manualmente).
 - O servidor roda, todo dia à meia-noite, um script que dá um `git pull` nesse repositório.
 - Se tiver alteração, o arquivo novo é baixado automaticamente.
@@ -171,7 +171,7 @@ Abra o arquivo com o comando `nano ~/.ssh/config` e inclua o conteúdo:
 
     1. :man_raising_hand: O caminho e o nome do arquivo devem ser os mesmos utilizados na criação do mesmo.
 
-6. **No servidor, teste se tá funcionando:**
+6. **No servidor, teste se está funcionando:**
 
     ```bash
     ssh -T git@github.com
@@ -183,7 +183,7 @@ Abra o arquivo com o comando `nano ~/.ssh/config` e inclua o conteúdo:
     Hi usuario/repositorio! You've successfully authenticated, but GitHub does not provide shell access.
     ```
 
-    Tá tudo certo.
+    Está tudo certo.
 
 7. **Configure o remote com SSH, se ainda não tiver feito:**
 
@@ -206,7 +206,7 @@ git pull origin main
 
 ## Resultado 🎉
 
-Agora meu colega não precisa mais me enviar arquivos.
+Agora, meu colega não precisa mais me enviar arquivos.
 Eu também não preciso mais acessar manualmente o servidor pra atualizar nada.
 
 Basta ele atualizar o arquivo no GitHub e, na próxima execução do script no servidor (que roda todo dia à meia-noite), tudo está no lugar certo, atualizado e funcionando.
