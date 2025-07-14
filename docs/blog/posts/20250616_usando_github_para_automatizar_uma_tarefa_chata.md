@@ -37,7 +37,7 @@ Com isso, o painel passa a exibir as informações atualizadas e todo mundo fica
 Se você leu “QlikView” e já pensou em parar a leitura por não conhecer a ferramenta, calma aí!
 Isso nem é relevante pra este post.
 
-No lugar de "QlikView", é só pensar na palavra **arquivo**.
+No lugar de "QlikView", é só pensar nas palavras **painel ou dashboard**.
 
 Sabe aquela vez que você precisou enviar um arquivo atualizado pro seu colega, pro seu time, ou pra algum sistema?
 É disso que estamos falando.
