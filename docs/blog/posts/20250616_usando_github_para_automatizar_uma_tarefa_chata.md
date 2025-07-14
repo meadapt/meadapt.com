@@ -1,6 +1,6 @@
 ---
 date: 2025-06-16
-draft: True
+draft: false
 authors: [gabrielbdornas]
 comments: true
 categories:
