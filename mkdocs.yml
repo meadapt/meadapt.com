@@ -14,6 +14,7 @@ nav:
   - Cursos:
     - courses/index.md
     - Curso Power Automate: courses/power_automate.md
+    - Peguntas e Respostas Robô de Consulta da Situação Fiscal: courses/robo_situacao_fiscal.md
   - Blog: blog/index.md
 
 # Configuration

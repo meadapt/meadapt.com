@@ -4,8 +4,8 @@ hide:
 comments: true
 ---
 
-# **Curso Power Automate** 
- 
+# **Curso Power Automate**
+
  <!--## /* From Uiverse.io by alexruix */ -->
 <p class="p-center">
   <div class="loader">
