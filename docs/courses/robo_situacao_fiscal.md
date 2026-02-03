@@ -18,7 +18,7 @@ comments: true
 
 ??? note "O curso está sendo atualizado?"
 
-    Sim, a cada atualização do Power Automate que intefira com o desempenho do robô. Uma nova versão será desenvolvida e enviada aos alunos.
+    Sim, a cada atualização do Power Automate, que interfira no desempenho do robô, uma nova versão será desenvolvida e enviada aos alunos.
 
 ??? note "O acesso é vitalício?"
 
@@ -30,11 +30,15 @@ comments: true
 
 ??? note "Como funciona o suporte à dúvidas?"
 
-    As dúvidas devem ser enviadas na plataforma do curso e a equipe da Me Adapt irá responder com 1-3 dias.
+    As dúvidas mais frequentes são respondidas na seção [Já estou fazendo o curso](#ja-estou-fazendo-o-curso).
+
+    Caso não encontre o que precise ali, a plataforma do curso deverá ser utilizada para entrar em contato conosco.
+
+    Para dúvidas ainda não respondidas na seção [Já estou fazendo o curso](robo_situacao_fiscal/#ja-estou-fazendo-o-curso) **a equipe da Me Adapt terá de 1 a 3 dias úteis para responder**.
 
 ??? note "Como funciona a matrícula e compra do curso?"
 
-    O processo de compra e inscrição do curso pode ser feito através do link disponível [aqui](https://pay.hotmart.com/U100445894K?checkoutMode=10&bid=1769622267238)
+    O processo de compra e inscrição do curso pode ser feito através do link disponível [aqui](https://pay.hotmart.com/U100445894K?checkoutMode=10&bid=1769622267238).
 
 ??? note "Qual a política de reembolso?"
 
@@ -55,7 +59,7 @@ comments: true
 
     Quando você edita o excel modelo que disponibilizado para os alunos, é possível que a informação do cnpj fique diferente, algo como: `3,7984583+13`.
 
-    Isso não é um problema e o seu robô deve funcionar normalmente. No entanto, se você quer facilitar a sua vasualização, você pode tentar alterar a formatação da coluna para texto.
+    Isso não é um problema e o seu robô deve funcionar normalmente. No entanto, se você quer facilitar a sua visualização, você pode tentar alterar a formatação da coluna para texto.
 
 ??? example "Qual a forma correta de inserir o valor da variável `contratante` e `autor_pedido_dados`? "
 
@@ -69,4 +73,4 @@ comments: true
 
     Este retorno significa que o robô está funcionando e executou todo o fluxo. No entanto, a conexão com a API da Serpro retornou que não foi possível consultar o relatório fiscal.
 
-    A causa mais frequente de falha de conexão é o preenchimento equivocado de informações pelo usuário. Verifique que todas as variáveis de entrada e as informações da planilha estão no formato correto, sem separadores como barras, pontos, espaços e traços.
+    A causa mais frequente de falha de conexão é o preenchimento equivocado de informações pelo usuário. Verifique se todas as variáveis de entrada e as informações da planilha estão no formato correto (sem separadores como barras, pontos, espaços e traços).
