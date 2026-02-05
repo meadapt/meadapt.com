@@ -4,7 +4,7 @@ hide:
 comments: true
 ---
 
-# Perguntas e Resposta do Robô de Consulta da Sitação Fiscal
+# Perguntas e Resposta do Robô de Consulta da Situação Fiscal
 
 ## Quero saber mais
 
