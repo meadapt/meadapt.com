@@ -74,3 +74,11 @@ comments: true
     Este retorno significa que o robô está funcionando e executou todo o fluxo. No entanto, a conexão com a API da Serpro retornou que não foi possível consultar o relatório fiscal.
 
     A causa mais frequente de falha de conexão é o preenchimento equivocado de informações pelo usuário. Verifique se todas as variáveis de entrada e as informações da planilha estão no formato correto (sem separadores como barras, pontos, espaços e traços).
+
+??? example "Invoke-WebRequest: Não é possível validar o argumento no parâmetro 'Certificate'"
+
+    Este retorno significa que o caminho para o certificado digital não está correto, ou o certificado não se encontra na pasta indicada. Um dos motivos pode ser a existência de uma contra barra "\" no final do caminho indicado. Exemplo:
+
+    D:\relatorio_fical\certificate.pfx\
+
+    A contra barra "\" no final do caminho indicado faz o Automate entender que você está informando um diretório e, portanto, ele não conseguirá achar o arquivo "certificate.pfx"
