@@ -75,6 +75,9 @@ comments: true
 
     A causa mais frequente de falha de conexão é o preenchimento equivocado de informações pelo usuário. Verifique se todas as variáveis de entrada e as informações da planilha estão no formato correto (sem separadores como barras, pontos, espaços e traços).
 
+    Além disso, este serviço da SERPRO exige a procuração eletrônica quando o autor do pedido de dados (você ou seu escritório) não é o próprio contribuinte (seu cliente). Esta procuração pode ser cadastrada por seu cliente no portal eCAC.
+    Sendo assim, tenha certeza que os CNPJs de sua planilha têm procuração eletrônica cadastrada no portal eCAC autorizando o CNPJ de seu escritório a fazer estas consultas.
+
 ??? example "Invoke-WebRequest: Não é possível validar o argumento no parâmetro 'Certificate'"
 
     Este retorno significa que o caminho para o certificado digital não está correto, ou o certificado não se encontra na pasta indicada. Um dos motivos pode ser a existência de uma contra barra "\" no final do caminho indicado. Exemplo:
