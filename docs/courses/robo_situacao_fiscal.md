@@ -85,3 +85,12 @@ comments: true
     D:\relatorio_fical\certificate.pfx\
 
     A contra barra "\" no final do caminho indicado faz o Automate entender que você está informando um diretório e, portanto, ele não conseguirá achar o arquivo "certificate.pfx"
+
+??? example "Invoke-WebRequest : O servidor remoto retornou um erro: (400) Solicitaçao Incorreta."
+
+    Este retorno significa que  solicitação à API da Serpro não foi correta. Isto, provavelmente, ocorreu porque algum dado fornecido pelo usuário (você) não está correta. 
+    
+    Faça as seguintes conferências:
+
+    - Veja se as variáveis de entrada foram inseridas no corretamente e no formato indicado na aula (nome de arquivos, credenciais, cnpj sem separadores, etc.)
+    - Veja se a sua lista de cnpjs está no formato adquado, sem pontos ou outros separadores, sedo a forma incorreta: 38.938.851/0001-52 e a forma correta: 75285262000149.
