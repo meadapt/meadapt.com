@@ -16,6 +16,14 @@ comments: true
 
     Contadores e escritórios de contabilidade
 
+??? note "Existe algum custo adicional?"
+
+    Para além do valor pago pelo curso, o aluno também deverá contratar o serviço de API disponibilizado pela [SERPRO](https://loja.serpro.gov.br/integra-contador/product/integracontador). **Este serviço será pago somente quando as consultas de situação fiscal forem realizadas**. Você pode consultarar [na página da SERPRO](https://loja.serpro.gov.br/integra-contador/product/integracontador) as regras os valores por consulta.
+
+    Como exemplo, se forem consultados 300 CNPJs por mês, sendo o valor individual de cada consulta 0,24 centavos para esta faixa de utilização, será cobrado ao final do mês 72,00 Reais (300 x 0,24).
+
+    Se forem consultados 3.000 CNPJs por mês, sendo o valor individual de cada consulta 0,06 centavos para esta faixa de utilização, será cobrado ao final do mês 180,00 Reais (3.000 x 0,06).
+
 ??? note "O curso está sendo atualizado?"
 
     Sim, a cada atualização do Power Automate, que interfira no desempenho do robô, uma nova versão será desenvolvida e enviada aos alunos.
@@ -88,8 +96,8 @@ comments: true
 
 ??? example "Invoke-WebRequest : O servidor remoto retornou um erro: (400) Solicitaçao Incorreta."
 
-    Este retorno significa que  solicitação à API da Serpro não foi correta. Isto, provavelmente, ocorreu porque algum dado fornecido pelo usuário (você) não está correta. 
-    
+    Este retorno significa que  solicitação à API da Serpro não foi correta. Isto, provavelmente, ocorreu porque algum dado fornecido pelo usuário (você) não está correta.
+
     Faça as seguintes conferências:
 
     - Veja se as variáveis de entrada foram inseridas no corretamente e no formato indicado na aula (nome de arquivos, credenciais, cnpj sem separadores, etc.)
