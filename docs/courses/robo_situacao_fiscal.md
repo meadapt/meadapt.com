@@ -59,6 +59,14 @@ comments: true
 
 ## Já estou fazendo o curso
 
+??? example "Como faço para conferir e atualizar a versão do meu Power Automate?"
+
+    Se nenhuma das perguntas abaixo solucionou seu problema, não se preocupe vamos te ajudar!
+
+    Você também pode entrar em contato conosco na plataforma do curso, mas antes, certifique-se que sua versão do Power Automate é a mais atual. Preparamos o vídeo abaixo para te ajudar, caso precise.
+
+    <iframe width="1000" height="315" src="https://www.youtube.com/embed/ZJcQA4JRZMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ??? example "Onde ficam salvos os PDFs depois que o robô finaliza?"
 
     Os Pdfs ficam salvos na pasta que você definiu na variável `caminho_pasta`.
